@@ -3,7 +3,7 @@ import refundsContent from "../../data/refundsContent";
 
 const Refunds = () => {
     useEffect(() => {
-        document.title = "Refunds | Pizza Time";
+        document.title = "Refunds | Minerva Sales Corp.";
     }, []);
     return (
         <main className="terms">

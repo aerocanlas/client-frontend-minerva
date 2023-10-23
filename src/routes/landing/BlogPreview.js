@@ -15,11 +15,10 @@ export default class BlogPreview extends React.Component {
         transition={{ duration: 2 }}
       >
 
-        <h2 className="txt-center pop-font txt-white">Recent from blog</h2>
+        <h2 className="txt-center pop-font txt-white">Customer Feedback</h2>
         <p className="section-description">
-          Fresh, flavorful and maybe some healthy recipes made for real, actual,
-          every day life. You don't need to be a pro! Helping you celebrate the
-          joy of food in a totally non-intimidating way.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, 
+        dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper.
         </p>
         <section className="blog-posts-landing">
           {blogPreview.map((post) => (

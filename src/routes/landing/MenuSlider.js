@@ -14,7 +14,7 @@ export default class MenuSlider extends React.Component {
   constructor() {
     super()
     this.state = {
-      activeCategory: 'pizza',
+      activeCategory: 'tires',
       allProducts: [],
       allCategories: [],
     }
@@ -48,7 +48,7 @@ export default class MenuSlider extends React.Component {
     try {
       const result = this.allProductsData
       this.setState({ allProducts: result })
-      // this.setState({activeCategory: "pizza"})
+      // this.setState({activeCategory: "tires"})
     } catch (error) {
       console.log(error)
     }

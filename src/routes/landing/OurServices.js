@@ -16,10 +16,9 @@ const OurServices = () => {
     >
       <h2 className="pop-font">Our Services</h2>
       <p className="pop-font section-description">
-        Pizza Time provides services across all states - various foods and
-        drinks, you choose! What makes us special is our teams of
-        professionals with extensive knowledge of all cuisine that we have to
-        offer.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, 
+        dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper. 
+        Aliquam euismod eget tellus non dictum.
       </p>
       <section className="services-grid  flex-container flex-column">
         {ourServices.map((service) => (

@@ -7,7 +7,7 @@ import careers from "../../data/careers";
 
 const Careers = () => {
     useEffect(() => {
-        document.title = "Careers | Pizza Time";
+        document.title = "Careers | Minerva Sales Corp.";
     }, []);
     return (
         <main className="careers">
