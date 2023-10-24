@@ -6,23 +6,7 @@ export default class FooterLegal extends React.Component {
     render() {
         return (
             <ul className="footer-menu  flex-container flex-column">
-                <li>
-                    <NavLink
-                        style={({ isActive }) =>
-                            isActive
-                                ? {
-                                    textDecoration: "none",
-                                    color: "#ff6240",
-                                }
-                                : {}
-                        }
-                        onClick={ResetLocation}
-                        className="txt-white"
-                        to="/careers"
-                    >
-                        Carrers
-                    </NavLink>
-                </li>
+                <h3>Legal</h3>
                 <li>
                     <NavLink
                         style={({ isActive }) =>
@@ -40,7 +24,6 @@ export default class FooterLegal extends React.Component {
                         Privacy
                     </NavLink>
                 </li>
-
                 <li>
                     <NavLink
                         style={({ isActive }) =>
@@ -55,9 +38,10 @@ export default class FooterLegal extends React.Component {
                         className="txt-white"
                         to="/refunds"
                     >
-                        Refunds
+                        Refund Policy
                     </NavLink>
                 </li>
+
                 <li>
                     <NavLink
                         style={({ isActive }) =>
@@ -75,6 +59,24 @@ export default class FooterLegal extends React.Component {
                         Terms
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink
+                        style={({ isActive }) =>
+                            isActive
+                                ? {
+                                    textDecoration: "none",
+                                    color: "#ff6240",
+                                }
+                                : {}
+                        }
+                        onClick={ResetLocation}
+                        className="txt-white"
+                        to="/cookies"
+                    >
+                        Cookie Policy
+                    </NavLink>
+                </li>
+                
 
             </ul>
         );

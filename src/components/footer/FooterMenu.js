@@ -7,6 +7,24 @@ export default class FooterMenu extends React.Component {
   render() {
     return (
       <ul className="footer-menu  flex-container flex-column">
+        <h3>Pages</h3>
+        <li>
+          <NavLink
+            style={({ isActive }) =>
+              isActive
+                ? {
+                  textDecoration: "none",
+                  color: "#ff6240",
+                }
+                : {}
+            }
+            onClick={ResetLocation}
+            className="txt-white"
+            to="/"
+          >
+            Home
+          </NavLink>
+        </li>
         <li>
           <NavLink
             style={({ isActive }) =>
@@ -21,7 +39,7 @@ export default class FooterMenu extends React.Component {
             className="txt-white"
             to="/menu"
           >
-            Menu
+            Products
           </NavLink>
         </li>
 
@@ -39,7 +57,7 @@ export default class FooterMenu extends React.Component {
             className="txt-white"
             to="/blog"
           >
-            Blog
+            Services
           </NavLink>
         </li>
         <li>

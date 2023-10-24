@@ -8,11 +8,13 @@ export default class Footer extends React.Component {
     return (
       <footer className=" flex-container flex-column txt-center txt-white pop-font">
         <FooterMenu />
-        <hr />
+        
         <FooterLegal />
-        <hr />
+        
         <FooterContact />
+        
       </footer>
+      
     );
   }
 }
