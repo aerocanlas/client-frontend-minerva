@@ -39,7 +39,12 @@ const Blog = () => {
       <h2>Services</h2>
       <p className="blog-intro">
 <<<<<<< HEAD
+<<<<<<< HEAD
         Quality Services
+=======
+      Lorem ipsum dolor sit amet, consecteture adipiscing elit, sed do euismod tempor 
+      incididunt ut labore et dolore magna aliqua. 
+>>>>>>> 74a925662d5054b59bc6ed2d17fd2b5281820aea
 =======
       Lorem ipsum dolor sit amet, consecteture adipiscing elit, sed do euismod tempor 
       incididunt ut labore et dolore magna aliqua. 
