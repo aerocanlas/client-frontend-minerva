@@ -38,7 +38,7 @@ const menuSliderProducts = [
         id: 'product 1',
         name: 'Product 1',
         describtion:
-            'Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         price: (0).toFixed(2),
         img375: tiresOne375,
         img700: tiresOne700,
@@ -48,7 +48,7 @@ const menuSliderProducts = [
         id: 'product 2',
         name: 'Product 2',
         describtion:
-            'Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         price: (0).toFixed(2),
         img375: tiresTwo375,
         img700: tiresTwo700,
@@ -57,7 +57,7 @@ const menuSliderProducts = [
     {
         id: 'product 3',
         name: 'Product 3',
-        describtion: 'Pizza dough, pizza sauce, provolone cheese, mozzarella.',
+        describtion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         price: (0).toFixed(2),
         img375: tiresThree375,
         img700: tiresThree700,

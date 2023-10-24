@@ -28,7 +28,7 @@ const pizzaMenuPreview = [
         img1440: imgOne1440,
         name: 'Product 1',
         price: 0.0,
-        currency: '₱',
+        currency: '₱ ',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum eget ligula a malesuada. Phasellus ac posuere dui, id pulvinar orci.',
     },

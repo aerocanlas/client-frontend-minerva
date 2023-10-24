@@ -7,11 +7,10 @@ const AboutCareers = () => {
   return (
     <article className="about-careers">
       <section className="content">
-        <h2 className="sub-title">Careers</h2>
-        <h3>Join the team</h3>
+        <h2 className="sub-title">Objectives</h2>
+        <h3>Quality</h3>
         <p>
-          Are you passionate about great food, exceptional customer service, and working with a fun and dynamic team? If so, we would love to have you join our team at Pizza Time!
-          We are always on the lookout for talented and motivated individuals to join our team in a variety of roles, from servers and chefs to kitchen staff and management. Whether you're just starting out in the foodservice industry or have years of experience under your belt, we offer a supportive and collaborative work environment that encourages personal and professional growth.
+        We value quality workmanship and strive for excellence in every service we provide. We prioritize using high-quality parts, employing skilled technicians, and following industry best practices to ensure that vehicles are serviced or repaired to the highest standards.
         </p>
       </section>
       <img src={OfficeTwo} alt="" aria-hidden="true" />
