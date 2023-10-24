@@ -14,7 +14,7 @@ let DefaultIcon = L.icon({
   shadowUrl: iconShadow,
 });
 L.Marker.prototype.options.icon = DefaultIcon;
-const position = [37.0902, -93.7129];
+const position = [14.32993, 121.07535];
 
 
 const ContactLanding = () => {
@@ -30,7 +30,7 @@ const ContactLanding = () => {
         <MapContainer
           id="map"
           center={position}
-          zoom={9}
+          zoom={20}
           scrollWheelZoom={false}
         >
           <TileLayer
@@ -52,28 +52,37 @@ const ContactLanding = () => {
         transition={{ duration: 2 }}
       >
         <h3>Contact Us</h3>
-        <p>Have a question, suggestion, or just want to say hello? We'd love to hear from you!</p>
+        <p>Have a question, suggestion, or just want to say hello? We'd love to hear from you!
+        </p>
+        <br></br>
         <section>
           <h4>Customer Support:</h4>
           <p>Our dedicated customer support team is ready to assist you with any inquiries you may have.</p>
           <ul>
-            <li>- Email: support@pizzatime.com</li>
-            <li>- Phone: 000 (000) 123 4567</li>
-            <li>- Hours: Monday - Friday, 8:00am - 9:00pm (EST)</li>
+            <li>- Email: minervasales.corporation@gmail.com</li>
+            <li>- Phone: 0917 865 7346</li>
+            <li>- Hours: Mon - Sat - 8:00 - 17:30
+                  </li>
+                  <li>
+                  Hours:
+                  Sunday - 10:00 - 16:30
+                  </li>
           </ul>
         </section>
+        <br></br>
         <section>
           <h4>General Inquiries:</h4>
           <p>If you have general questions about our company, partnerships, or anything else, feel free to get in touch.</p>
           <ul>
-            <li>- Email: info@pizzatime.com</li>
+            <li>- minervasales.corporation@gmail.com</li>
           </ul>
         </section>
+        <br></br>
         <section>
           <h4>Feedback and Suggestions:</h4>
           <p>We value your feedback and are always striving to improve. If you have any suggestions, comments, or ideas on how we can enhance our offerings, please let us know.</p>
           <ul>
-            <li>- Email: feedback@pizzatime.com</li>
+            <li>- Email: minervasales.corporation@gmail.com</li>
           </ul>
         </section>
       </motion.div>

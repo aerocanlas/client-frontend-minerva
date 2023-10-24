@@ -4,11 +4,12 @@ const AboutDedication = () => {
   return (
     <article className="about-dedication">
       <section className="content">
-        <h2 className="sub-title">Dedicated</h2>
-        <h3>Changing the world together</h3>
+        <h2 className="sub-title">We Are The Pioneer</h2>
+        <h3>In Automotive Services in Biñan, Laguna</h3>
         <p>
-          We believe that our success is due to our commitment to providing high-quality food and exceptional service. Our menu features a wide range of delicious pizzas, salads, sandwiches, pasta dishes, and more, all made with fresh, locally sourced ingredients. We take great care to ensure that each dish is prepared with the utmost attention to detail, so that every bite is as delicious as the last.
-          We also understand that great food is only part of the equation. That's why we place a strong emphasis on delivering exceptional service to every customer who walks through our doors. Our team of dedicated staff members is committed to providing a warm, welcoming atmosphere that makes every guest feel like they are part of the family.
+        Welcome to Minerva Sales Corporation, a pioneer in automotive services in Biñan, Laguna. We offer a comprehensive range of car care services to meet all your vehicle’s needs. Our skilled technicians and mechanics provide top-notch service, utilizing the latest technology and tools.
+
+At Minerva Sales Corporation, we are committed to excellence, ensuring your vehicle receives the highest level of care. Visit us today and experience our dedication to keeping your vehicle in prime condition.
         </p>
       </section>
       <div className="black-glass"></div>

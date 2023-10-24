@@ -10,11 +10,12 @@ export default class FooterContact extends React.Component {
     return (
       <section className="footer-contact  flex-container flex-column">
         <h3>Have questions?</h3>
-        <p>000 (000) 123 4567</p>
-        <p>pizza@pizzatime.com</p>
-        <p>8:00am - 9:00pm</p>
+        <p>0917 865 7346</p>
+        <p>minervasales.corporation@gmail.com</p>
+        <p>Mon - Sat - 8:00 - 17:30</p>
+        <p>Sunday - 10:00 - 16:30</p>
         <section className="accepted-payments">
-          <img width="50" height="50" src={Visa} alt="Visa card" />
+          {/* <img width="50" height="50" src={Visa} alt="Visa card" />
           <img width="50" height="50" src={MasterCard} alt="Mastercard card" />
           <img width="50" height="50" src={ApplePay} alt="Apple pay" />
           <img
@@ -23,7 +24,7 @@ export default class FooterContact extends React.Component {
             className="googlepay"
             src={GooglePay}
             alt="Google pay"
-          />
+          /> */}
         </section>
       </section>
     )
