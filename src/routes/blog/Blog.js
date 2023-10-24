@@ -22,7 +22,7 @@ const Blog = () => {
   };
 
   useEffect(() => {
-    document.title = "Blog | Pizza Time";
+    document.title = "Blog | Minerva Sales Corp.";
     setEndOffset(itemOffset + 5);
     setcurrentBlogPosts([...allBlogPosts].reverse().slice(itemOffset, endOffset));
     setpageCountPosts(Math.ceil(allBlogPosts.length / 5));
@@ -38,7 +38,12 @@ const Blog = () => {
     >
       <h2>Services</h2>
       <p className="blog-intro">
+<<<<<<< HEAD
         Quality Services
+=======
+      Lorem ipsum dolor sit amet, consecteture adipiscing elit, sed do euismod tempor 
+      incididunt ut labore et dolore magna aliqua. 
+>>>>>>> 74a925662d5054b59bc6ed2d17fd2b5281820aea
       </p>
       <section className="blog-grid">
         {currentBlogPosts.map((blogPost, index) => {

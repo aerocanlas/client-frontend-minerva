@@ -16,7 +16,7 @@ const Contact = () => {
   const validate = validateForm("contact");
   const captchaRef = useRef();
   useEffect(() => {
-    document.title = "Contact | Pizza Time";
+    document.title = "Contact | Minerva Sales Corp.";
   }, []);
   const handleSubmit = async (e) => {
     setLoading(true);

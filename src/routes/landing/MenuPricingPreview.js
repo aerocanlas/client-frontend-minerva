@@ -17,12 +17,11 @@ export default class MenuPricingPreview extends React.Component {
         exit={{ opacity: 0, translateX: -300 }}
         transition={{ duration: 2 }}
       >
-        <h2 className="txt-center pop-font txt-white">Menu Pricing</h2>
+        <h2 className="txt-center pop-font txt-white">Products and Services Pricing</h2>
         <p className="section-description">
-          Every bite of every meal is different and special. You will never get
-          bored and you will always be able to find something new and
-          interesting for you. Discover every mouthwatering option we have to
-          offer
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, 
+        dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper. 
+        Aliquam euismod eget tellus non dictum.
         </p>
         <section className="pricing-grid flex-container flex-column">
           {menuPricing.map((menu) => (

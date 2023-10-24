@@ -10,11 +10,11 @@ const PizzaMenuPreview = () => {
   return (
     <article className="section-4 flex-container flex-column" >
       <section className="section-4-info txt-center">
-        <h2 className="pop-font txt-white">Hot Pizza Meals</h2>
+        <h2 className="pop-font txt-white">Our Products</h2>
         <p className="section-description">
-          Pizza Time holds the market of the pizza industry and continuously
-          offers more than pizza. Check out our hottest menu options with
-          cheese, meat, chicken and veggies!
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, 
+        dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper. 
+        Aliquam euismod eget tellus non dictum.
         </p>
       </section>
       <section className="meals-grid flex-container flex-column" >
@@ -51,7 +51,7 @@ const PizzaMenuPreview = () => {
         to="/menu"
         className="active-button-style txt-white"
       >
-        More pizza
+        More Products
       </Link>
     </article>
 

@@ -24,18 +24,18 @@ const Header = ({ loginModal,
             hideMenu()
           }}
           to="/"
-          className="logo-styling flex-container flex-row txt-center txt-white"
+          className="logo-style flex-container txt-center txt-white"
         >
           <img
-            width="50"
-            height="50"
+            width="80"
+            height="80"
             className="logo"
             src={logo}
-            alt="Pizza Time logo"
+            alt="Minerva logo"
           />
-          <h1>
-            Pizza <span>Time</span>
-          </h1>
+          <h2>
+            Minerva <span>Sales</span> Corporation
+          </h2>
         </NavLink>
         <ul className={`navigation-menu flex-row pop-font ${isModalActive ? 'active' : ''}`}>
           <li>
@@ -75,7 +75,7 @@ const Header = ({ loginModal,
               className="txt-white"
               to="/menu"
             >
-              Menu
+              Products
             </NavLink>
           </li>
 
@@ -96,7 +96,7 @@ const Header = ({ loginModal,
               className="txt-white"
               to="/blog"
             >
-              Blog
+              Services
             </NavLink>
           </li>
           <li>

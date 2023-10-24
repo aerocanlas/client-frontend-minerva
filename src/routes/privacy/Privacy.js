@@ -3,7 +3,7 @@ import privacyContent from "../../data/privacyContent";
 
 const Privacy = () => {
     useEffect(() => {
-        document.title = "Privacy | Pizza Time";
+        document.title = "Privacy | Minerva Sales Corp.";
     }, []);
     return (
         <main className="terms">

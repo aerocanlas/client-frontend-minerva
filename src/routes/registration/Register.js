@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import ResetLocation from "../../helpers/ResetLocation";
 const Register = ({ activateLoginModal }) => {
 
-  const [formValue, setFormValue] = useState({ id: '', email: '', password: '', repeatPassword: '', fullname: '', address: '', number: '' });
+  const [formValue, setFormValue] = useState({ id: '', email: '', password: '', repeatPassword: '', firstname: '', lastname: '', address: '', number: '' });
   const [formError, setFormError] = useState({})
   const [submit, setSubmit] = useState(false);
   const [registrationFail, setRegistrationFail] = useState(false);
@@ -81,13 +81,13 @@ const Register = ({ activateLoginModal }) => {
         setLoading(false);
         setSubmit(false);
         setRegistrationFail(true);
-        setFormValue({ id: '', email: '', password: '', repeatPassword: '', fullname: '', address: '', number: '' })
+        setFormValue({ id: '', email: '', password: '', repeatPassword: '', firstname: '', lastname: '',address: '', number: '' })
       }
       else {
         setLoading(false);
         setRegistrationFail(false);
         setSubmit(true);
-        setFormValue({ id: '', email: '', password: '', repeatPassword: '', fullname: '', address: '', number: '' })
+        setFormValue({ id: '', email: '', password: '', repeatPassword: '', firstname: '', lastname: '', address: '', number: '' })
       }
     }
   }
@@ -98,7 +98,7 @@ const Register = ({ activateLoginModal }) => {
   const validate = validateForm("registration");
 
   useEffect(() => {
-    document.title = "Registration | Pizza Time";
+    document.title = "Registration | Minerva Sales Corp.";
   }, []);
   return (
     <main className="register-main">
@@ -125,9 +125,14 @@ const Register = ({ activateLoginModal }) => {
         <form className="registration-form" onSubmit={handleSubmit}>
           {registrationFail ? <p className="registration-input-err">Seems like this email has already been registered!</p> : null}
           <section className="name-section">
-            <input type="text" placeholder="Full name" name="fullname" value={formValue.fullname}
+            <input type="text" placeholder="First name" name="firstname" value={formValue.firstname}
               onChange={handleValidation} />
-            <span className="registration-input-err">{formError.fullname}</span>
+            <span className="registration-input-err">{formError.firstname}</span>
+          </section>
+          <section className="name-section">
+            <input type="text" placeholder="Last name" name="lastname" value={formValue.lastname}
+              onChange={handleValidation} />
+            <span className="registration-input-err">{formError.lastname}</span>
           </section>
           <section className="email-section">
             <input type="text" placeholder="Email" name="email" value={formValue.email}

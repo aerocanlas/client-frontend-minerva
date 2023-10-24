@@ -29,18 +29,16 @@ const WelcomeSection = () => {
           transition={{ duration: 5 }}
         />
         <h2 className="txt-white">
-          Welcome to <span>Pizza Time</span> restaurant
+          Welcome to <span>Minerva Sales</span> Corporation
         </h2>
         <p>
-          Founded in 1982 we bring pizza slice by slice to the next level!
-          Unique branding and being in the pizza industry is the formula to
-          out success. We do understand what people want and convert desires
-          to unique experiences of taste. Freshness, orignality and quality is
-          only the small part of out priorities. Affortable costs, located
-          almost anywhere you go, amazing online operational system to order
-          food in one click. Easy to navigate pre-order options and amazing
-          options for corporate parties! At Pizaa Time we care about you
-          because you are the one who makes us special!
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, 
+        dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper. 
+        Aliquam euismod eget tellus non dictum. Aliquam et rhoncus ex. Sed porttitor sit amet dolor nec gravida. 
+        Fusce et luctus orci, sed laoreet nisl. Vestibulum sagittis nisl sit amet odio blandit, aliquam vehicula 
+        leo cursus. Aenean sem eros, vestibulum sed aliquet eget, dignissim at mauris. Aliquam erat volutpat. 
+        Nullam porttitor justo a sapien auctor, non sodales neque ultricies. Donec ut cursus nisl. Cras commodo 
+        nunc sit amet sem dapibus placerat.
         </p>
       </section>
       <LazyLoadImage

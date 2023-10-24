@@ -33,8 +33,9 @@ const ContactUsLanding = () => {
           <p>Contact us if you have any questions</p>
         </div>
         <div>
-          <h2>506 Roy Alley 80202 </h2>
-          <p>Colorado, Denver</p>
+          <h2>General Malvar Street </h2>
+          <h2>Barangay Tubigan</h2>
+          <p>Binan City, Laguna</p>
         </div>
         <div>
           <h2>Open Monday-Friday</h2>
