@@ -12,7 +12,7 @@ import Img10 from "../assets/images/blog/post-10.jpeg";
 const allBlogPosts = [
   {
     img: Img1,
-    name: "Pizza crust types",
+    name: "Tire quality is top notch",
     intro:
       "Embark on a culinary adventure as we explore these delectable pizza crusts, each contributing its own character to the beloved dish we all know and love",
     date: "July 12, 2023",

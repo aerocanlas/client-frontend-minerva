@@ -24,7 +24,6 @@ import NotFound from './routes/not-found/NotFound.js';
 import Refunds from './routes/refunds/Refunds.js';
 import Terms from './routes/terms/Terms.js';
 import Privacy from './routes/privacy/Privacy.js';
-import Careers from './routes/careers/Careers.js';
 import BlogPost from './routes/blog-post/BlogPost.js';
 import Profile from './routes/profile/Profile.js';
 import ResetLocation from './helpers/ResetLocation.js';
@@ -514,7 +513,6 @@ function App() {
             />
           }
         />
-        <Route path="/careers" element={<Careers />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/refunds" element={<Refunds />} />
         <Route path="/terms" element={<Terms />} />

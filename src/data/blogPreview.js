@@ -5,9 +5,9 @@ import Img3 from "../assets/images/blog/post-3.jpeg";
 const blogPreview = [
     {
         img: Img1,
-        name: "Pizza crust types",
+        name: "Tire quality is top notch",
         intro:
-            "Embark on a culinary adventure as we explore these delectable pizza crusts, each contributing its own character to the beloved dish we all know and love",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper.",
         date: "July 12, 2023",
         author: "Daniel Wilson",
         id: 1,
@@ -42,9 +42,9 @@ const blogPreview = [
     {
         img: Img2,
         name:
-            "Different styles of pizza crust for 8 classic pies",
+            "Good service staff",
         intro:
-            "When it comes to pizza, the crust is more than just a vessel for toppings – it's a canvas that can influence the entire dining experience",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper.",
         date: "July 1, 2023",
         author: "Anna Anderson",
         id: 2,
@@ -75,9 +75,9 @@ const blogPreview = [
     },
     {
         img: Img3,
-        name: "What to do with leftover pizza dough",
+        name: "Brakes are high grade",
         intro:
-            "Discover the art of repurposing leftover pizza dough with our inventive ideas. From savory bites to sweet delights, your leftover dough has never been this exciting",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis, dolor quis efficitur ultrices, dolor tellus ornare massa, in interdum tortor velit ac quam. Integer pulvinar fringilla ullamcorper.",
         date: "June 27, 2023",
         author: "Catherine Wright",
         id: 3,

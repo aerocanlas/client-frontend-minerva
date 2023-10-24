@@ -25,10 +25,10 @@ const Hero = () => {
         </motion.div>
 
         <div className="header-btns flex-container flex-row">
-          <Link className=" passive-button-style" to="/blog">
+          <Link className=" passive-button-style" to="/menu">
             View Products
           </Link>
-          <Link className=" passive-button-style  " to="/menu">
+          <Link className=" passive-button-style  " to="/blog">
             View Services
           </Link>
         </div>

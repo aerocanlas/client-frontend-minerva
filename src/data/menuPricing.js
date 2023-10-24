@@ -11,7 +11,7 @@ const menuPricing = [
         img375: imgOne375,
         name: 'Product 1',
         price: 0.0,
-        currency: '₱',
+        currency: '₱ ',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam.',
     },
@@ -20,7 +20,7 @@ const menuPricing = [
         img375: imgTwo375,
         name: 'Product 2',
         price: 0.0,
-        currency: '₱',
+        currency: '₱ ',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam.',
     },
@@ -29,7 +29,7 @@ const menuPricing = [
         img375: imgThree375,
         name: 'Product 3',
         price: 0.0,
-        currency: '₱',
+        currency: '₱ ',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam.',
     },
@@ -38,7 +38,7 @@ const menuPricing = [
         img375: imgFour375,
         name: 'Product 4',
         price: 0.0,
-        currency: '₱',
+        currency: '₱ ',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam.',
     },
@@ -47,7 +47,7 @@ const menuPricing = [
         img375: imgFive375,
         name: 'Product 5',
         price: 0.0,
-        currency: '₱',
+        currency: '₱ ',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam.',
     },
@@ -56,7 +56,7 @@ const menuPricing = [
         img375: imgSix375,
         name: 'Product 6',
         price: 0.0,
-        currency: '₱',
+        currency: '₱ ',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam.',
     },
