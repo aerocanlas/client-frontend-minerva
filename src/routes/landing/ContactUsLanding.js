@@ -29,7 +29,7 @@ const ContactUsLanding = () => {
       />
       <section className='company-details'>
         <div>
-          <h2>000 (000) 123 4567</h2>
+          <h2>0917 865 7346</h2>
           <p>Contact us if you have any questions</p>
         </div>
         <div>
@@ -38,8 +38,12 @@ const ContactUsLanding = () => {
           <p>Binan City, Laguna</p>
         </div>
         <div>
-          <h2>Open Monday-Friday</h2>
-          <p>8:00am - 9:00pm</p>
+          <h2>Open Monday-Saturday</h2>
+          <p>8:00am - 5:00pm</p>
+        </div>
+        <div>
+          <h2>Open Sunday</h2>
+          <p>8:30am - 3:00pm</p>
         </div>
       </section>
     </section>
