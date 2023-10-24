@@ -1,108 +1,69 @@
-import CocaCola from '../assets/images/drinks-images/coca-cola-classic.jpeg'
-import MountainDew from '../assets/images/drinks-images/Mountain Dew Citrus.webp'
-import PepsiCola from '../assets/images/drinks-images/Pepsi Cola.jpeg'
-import Milo from '../assets/images/drinks-images/milos.jpeg'
-import DrPepper from '../assets/images/drinks-images/Diet Dr Pepper Soda.jpg'
-import SpriteCaffeine from '../assets/images/drinks-images/Sprite Caffeine-Free Lemon Lime Soda Pop.jpeg'
-import GreatValueSweet from '../assets/images/drinks-images/Great Value.jpeg'
-import SToK from '../assets/images/drinks-images/SToK.webp'
-import Lipton from '../assets/images/drinks-images/Lipton Green Tea.jpeg'
-import CanadaDry from '../assets/images/drinks-images/Canada Dry Ginger.jpg'
-import DrPepperZero from '../assets/images/drinks-images/Dr Pepper Zero Sugar.jpeg'
-import DietDrPepper from '../assets/images/drinks-images/Diet Dr Pepper Soda.jpg'
-import AquafinaPurified from '../assets/images/drinks-images/Aquafina Purified.jpeg'
-import PureLife from '../assets/images/drinks-images/Pure Life Purified.jpg'
-import SamsCola from '../assets/images/drinks-images/Sams Cola Soda.jpeg'
-import RedBull from '../assets/images/drinks-images/Red Bull.jpg'
+import CocaCola from '../assets/images/drinks-images/coca-cola-classic.png'
+import MountainDew from '../assets/images/drinks-images/Mountain Dew Citrus.png'
+import PepsiCola from '../assets/images/drinks-images/Pepsi Cola.png'
+import Milo from '../assets/images/drinks-images/milos.png'
+import SpriteCaffeine from '../assets/images/drinks-images/Sprite Caffeine-Free Lemon Lime Soda Pop.png'
+import SToK from '../assets/images/drinks-images/elf.png'
+import Lipton from '../assets/images/drinks-images/Lipton Green Tea.png'
+import CanadaDry from '../assets/images/drinks-images/Canada Dry Ginger.png'
+import DrPepperZero from '../assets/images/drinks-images/Dr Pepper Zero Sugar.png'
+import DietDrPepper from '../assets/images/drinks-images/Diet Dr Pepper Soda.png'
+import AquafinaPurified from '../assets/images/drinks-images/Aquafina Purified.png'
+import PureLife from '../assets/images/drinks-images/Pure Life Purified.png'
+import SamsCola from '../assets/images/drinks-images/Sams Cola Soda.png'
 import Anw from '../assets/images/drinks-images/A&W Caffeine-Free.png'
-import PepsiSoda from '../assets/images/drinks-images/pepsi.jpeg'
-import GreatValue from '../assets/images/drinks-images/Great Value.jpeg'
-import Sunkist from '../assets/images/drinks-images/Sunkist Orange.jpeg'
-import GreatValueTwist from '../assets/images/drinks-images/Great Value Twist Up.jpeg'
-import FantaOrange from '../assets/images/drinks-images/Fanta Orange Soda.jpeg'
+import GreatValue from '../assets/images/drinks-images/Great Value.png'
+
 //Pasta
-import ChickenAlfredo from '../assets/images/pasta-images/Chicken Alfredo.jpeg'
-import AllaGricia from '../assets/images/pasta-images/Pasta Alla Gricia.jpeg'
-import SheetPan from '../assets/images/pasta-images/Sheet-Pan Burrata Caprese Gnocchi.jpeg'
-import AllaVodka from '../assets/images/pasta-images/Penne Alla Vodka.jpeg'
-import BakedSpaghetti from '../assets/images/pasta-images/Baked Spaghetti.jpeg'
-import PotatoGnocchi from '../assets/images/pasta-images/pasta-6.jpeg'
-import BakedZiti from '../assets/images/pasta-images/Ultimate Baked Ziti.jpeg'
-import CacioPepe from '../assets/images/pasta-images/Cacio e Pepe.jpeg'
-import PastaPuttanesca from '../assets/images/pasta-images/Pasta Puttanesca.jpeg'
-import ItalianPastaSalad from '../assets/images/pasta-images/Italian Pasta Salad.jpeg'
-import Lasagna from '../assets/images/pasta-images/Lasagna Roll Ups.jpeg'
-import ToastedRavioli from '../assets/images/pasta-images/Toasted Ravioli.jpeg'
-import OrecchietteBroccoli from '../assets/images/pasta-images/Orecchiette with Broccoli Rabe.jpeg'
-import LambRagu from '../assets/images/pasta-images/Lamb Ragù.jpeg'
-import LasagnaBolognese from '../assets/images/pasta-images/Lasagna Bolognese.jpeg'
-import LemonRicotta from '../assets/images/pasta-images/Lemon Ricotta Pasta.jpeg'
-import StuffedRigatoni from '../assets/images/pasta-images/Stuffed Rigatoni.jpeg'
-import FiveCheese from '../assets/images/pasta-images/Five-Cheese Ziti Al Forno.jpeg'
-import ChickenFlorentine from '../assets/images/pasta-images/Chicken Florentine Pasta.jpeg'
-import MacCheese from '../assets/images/pasta-images/Italian Mac and Cheese.jpeg'
+import ChickenAlfredo from '../assets/images/pasta-images/Chicken Alfredo.png'
+import AllaGricia from '../assets/images/pasta-images/Pasta Alla Gricia.png'
+import SheetPan from '../assets/images/pasta-images/Sheet-Pan Burrata Caprese Gnocchi.png'
+import AllaVodka from '../assets/images/pasta-images/Penne Alla Vodka.png'
+import BakedSpaghetti from '../assets/images/pasta-images/Baked Spaghetti.png'
+import PotatoGnocchi from '../assets/images/pasta-images/pasta-6.png'
+import BakedZiti from '../assets/images/pasta-images/Ultimate Baked Ziti.png'
+import CacioPepe from '../assets/images/pasta-images/Cacio e Pepe.png'
+import PastaPuttanesca from '../assets/images/pasta-images/Pasta Puttanesca.png'
+import ItalianPastaSalad from '../assets/images/pasta-images/Italian Pasta Salad.png'
+import Lasagna from '../assets/images/pasta-images/Lasagna Roll Ups.png'
+import ToastedRavioli from '../assets/images/pasta-images/Toasted Ravioli.png'
+import OrecchietteBroccoli from '../assets/images/pasta-images/Orecchiette with Broccoli Rabe.png'
+import LambRagu from '../assets/images/pasta-images/Lamb Ragù.png'
+import LasagnaBolognese from '../assets/images/pasta-images/Lasagna Bolognese.png'
+
 //Pizza
-import CheesePizza from '../assets/images/cheese-pizza-375.jpg'
-import ExtraCheesePizza from '../assets/images/cheese-pizza-376.jpg'
-import VeggiePizza from '../assets/images/veggie-pizza.jpg'
-import PepperoniPizza from '../assets/images/pepperoni-pizza.jpg'
-import MeatPizza from '../assets/images/meat-pizza.jpg'
-import MargheritaPizza from '../assets/images/margherita-pizza.jpg'
-import BBQPizza from '../assets/images/BBQ-chicken-pizza.jpg'
-import AllaPalla from '../assets/images/pizza-alla-pala.jpg'
-import Prosciutto from '../assets/images/Prosciutto-e-Funghi-Pizza.jpeg'
-import DetroitStyle from '../assets/images/Detroit-Style-pizza.jpeg'
-import GarlicFingers from '../assets/images/Garlic-Fingers-pizza.jpeg'
-import StLous from '../assets/images/St-Louis-Style-Pizza.jpg'
-import Rustica from '../assets/images/Pizza-Rustica.jpg'
-import Genovese from '../assets/images/Genovese.jpeg'
-import Efichi from '../assets/images/Pizza-e-fichi.jpeg'
-import Apizza from '../assets/images/Apizza.jpg'
-import StuffedPizza from '../assets/images/Stuffed-Pizza.jpg'
-import Pugliese from '../assets/images/Pugliese.jpeg'
-import TomatoPie from '../assets/images/Tomato-Pie.jpeg'
-import Fugaza from '../assets/images/fugazza.jpeg'
-import DiZucca from '../assets/images/di-zucca.jpeg'
-import Fugazeta from '../assets/images/Fugazzeta.jpeg'
+import CheesePizza from '../assets/images/cheese-pizza-375.png'
+import ExtraCheesePizza from '../assets/images/cheese-pizza-376.png'
+import VeggiePizza from '../assets/images/veggie-pizza.png'
+import PepperoniPizza from '../assets/images/pepperoni-pizza.png'
+import MeatPizza from '../assets/images/meat-pizza.png'
+import MargheritaPizza from '../assets/images/margherita-pizza.png'
+import BBQPizza from '../assets/images/BBQ-chicken-pizza.png'
+import AllaPalla from '../assets/images/pizza-alla-pala.png'
+import Prosciutto from '../assets/images/Prosciutto-e-Funghi-Pizza.png'
+import DetroitStyle from '../assets/images/Detroit-Style-pizza.png'
+import GarlicFingers from '../assets/images/Garlic-Fingers-pizza.png'
+import StLous from '../assets/images/St-Louis-Style-Pizza.png'
+import Rustica from '../assets/images/Pizza-Rustica.png'
+import Genovese from '../assets/images/Genovese.png'
+import Efichi from '../assets/images/Pizza-e-fichi.png'
 import Parts from '../assets/images/parts.jpg'
-import GranmaPie from '../assets/images/Grandma-Pie.jpeg'
-import Padellino from '../assets/images/padellino.jpeg'
-import CaliforniaStyle from '../assets/images/California-Style.jpeg'
-import Fritta from '../assets/images/fritta.jpeg'
-import Romana from '../assets/images/romana.jpeg'
-import ThinCrust from '../assets/images/Thin-Crust.jpeg'
-import GreekStyle from '../assets/images/Greek-Style.jpeg'
-import PizzaRomana from '../assets/images/PizzaRomana.jpeg'
+
 //Sushi
-import SalmonPoke from '../assets/images/sushi-images/sushi-19.jpeg'
-import VeggiePoke from '../assets/images/sushi-images/sushi-26.jpeg'
-import MiniSalmon from '../assets/images/sushi-images/sushi-12.jpeg'
-import OmbosSeth from '../assets/images/sushi-images/sushi-23.jpeg'
-import VeggieSet from '../assets/images/sushi-images/sushi-27.jpeg'
-import FriendlySet from '../assets/images/sushi-images/sushi-8.jpeg'
-import SunnyPhiladelphia from '../assets/images/sushi-images/sushi-22.jpeg'
-import HiddenDragon from '../assets/images/sushi-images/sushi-9.jpeg'
-import HottestTaisho from '../assets/images/sushi-images/sushi-24.jpeg'
-import BurningTaisho from '../assets/images/sushi-images/sushi-3.jpeg'
-import BlissfulEel from '../assets/images/sushi-images/sushi-2.jpeg'
-import Sebastian from '../assets/images/sushi-images/sushi-20.jpeg'
-import DoubleSalmon from '../assets/images/sushi-images/sushi-6.jpeg'
-import ClockworkOrange from '../assets/images/sushi-images/sushi-4.jpeg'
-import KiwiRoll from '../assets/images/sushi-images/sushi-11.jpeg'
-import Siamese from '../assets/images/sushi-images/sushi-25.jpeg'
-import SalmonMaki from '../assets/images/sushi-images/sushi-18.jpeg'
-import NigiriWithRoasted from '../assets/images/sushi-images/sushi-15.jpeg'
-import NigiriWithSalmon from '../assets/images/sushi-images/sushi-16.jpeg'
-import NigiriWithEel from '../assets/images/sushi-images/sushi-14.jpeg'
-import VulcanTobiko from '../assets/images/sushi-images/sushi-29.jpeg'
-import SalmonGunkan from '../assets/images/sushi-images/sushi-17.jpeg'
-import VeryVegetarian from '../assets/images/sushi-images/sushi-28.jpeg'
-import SushiOne from '../assets/images/sushi-images/sushi-1.jpeg'
-import CucumberMaki from '../assets/images/sushi-images/sushi-5.jpeg'
-import HungrySet from '../assets/images/sushi-images/sushi-10.jpeg'
-import NigiriOcean from '../assets/images/sushi-images/sushi-13.jpeg'
-import FoggyAlbion from '../assets/images/sushi-images/sushi-7.jpeg'
-import StanleyKubrick from '../assets/images/sushi-images/sushi-21.jpeg'
+import VeggiePoke from '../assets/images/sushi-images/sushi-26.png'
+import MiniSalmon from '../assets/images/sushi-images/sushi-12.png'
+import OmbosSeth from '../assets/images/sushi-images/sushi-23.png'
+import VeggieSet from '../assets/images/sushi-images/sushi-27.png'
+import FriendlySet from '../assets/images/sushi-images/sushi-8.png'
+import SunnyPhiladelphia from '../assets/images/sushi-images/sushi-22.png'
+import HiddenDragon from '../assets/images/sushi-images/sushi-9.png'
+import HottestTaisho from '../assets/images/sushi-images/sushi-24.png'
+import BurningTaisho from '../assets/images/sushi-images/sushi-3.png'
+import BlissfulEel from '../assets/images/sushi-images/sushi-2.png'
+import Sebastian from '../assets/images/sushi-images/sushi-20.png'
+import DoubleSalmon from '../assets/images/sushi-images/sushi-6.png'
+import ClockworkOrange from '../assets/images/sushi-images/sushi-4.png'
+import KiwiRoll from '../assets/images/sushi-images/sushi-11.png'
 
 export const allProductsData = [
   {
@@ -396,152 +357,7 @@ export const allProductsData = [
       },
     ],
   },
-  {
-    id: 'apizza-pizza',
-    ItemImg: Apizza,
-    ItemName: 'Apizza',
-    ItemIngredients:
-      'Ricotta cheese, tomato sauce, fresh basil pesto, fresh mozzarella cheese, semolina flour.',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'stuffed-pizza',
-    ItemImg: StuffedPizza,
-    ItemName: 'Stuffed Pizza',
-    ItemIngredients:
-      'Hot italian sausage, sweet italian sausage, pizza dough, red pepper flakes, olive oil.',
-    ItemPrice: (13).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pugliese-pizza',
-    ItemImg: Pugliese,
-    ItemName: 'Pugliese Pizza',
-    ItemIngredients:
-      'Sloppy joe, banana peppers, ground beef, pizza dough, ricotta cheese.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'tomato-pie',
-    ItemImg: TomatoPie,
-    ItemName: 'Tomato Pie',
-    ItemIngredients:
-      'Pizza dough, san marzano, red pepper flakes, pizza stone, olive oil.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'fugazza',
-    ItemImg: Fugaza,
-    ItemName: 'Fugazza',
-    ItemIngredients: 'Mozzarella cheese, sugar, dry yeast, all purpose flour.',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'fiori-di-zucca',
-    ItemImg: DiZucca,
-    ItemName: 'Pizza fiori di zucca',
-    ItemIngredients:
-      'Zucchini blossoms, pizza dough, buffalo mozzarella, olive oil.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'fugazzeta',
-    ItemImg: Fugazeta,
-    ItemName: 'Fugazzeta',
-    ItemIngredients:
-      'Feta cheese, mozzarella cheese, parmesan cheese, olive oil, yeast.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
+
   {
     id: 'parts',
     ItemImg: Parts,
@@ -549,173 +365,6 @@ export const allProductsData = [
     ItemIngredients:
       'Refrigerated pizza crust, monterey jack cheese, parmesan cheese, butter, chicken bouillon.',
     ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'grandma-pie',
-    ItemImg: GranmaPie,
-    ItemName: 'Grandma Pie',
-    ItemIngredients:
-      'Dark brown sugar, san marzano tomatoes, tomato paste, bread flour, red pepper flakes.',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pizza-al-padellino',
-    ItemImg: Padellino,
-    ItemName: 'Pizza al padellino',
-    ItemIngredients:
-      'Mozzarella cheese, prosciutto di parma, dough, baby arugula, black pepper',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'california-style-pizza',
-    ItemImg: CaliforniaStyle,
-    ItemName: 'California-Style Pizza',
-    ItemIngredients:
-      'Feta cheese, marinated artichoke hearts, pizza crust, red bell pepper, red onion.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pizza-fritta',
-    ItemImg: Fritta,
-    ItemName: 'Pizza fritta',
-    ItemIngredients:
-      'Ricotta cheese, tomato sauce, tipo 00, neapolitan pizza base, mozzarella cheese.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pinsa-romana',
-    ItemImg: Romana,
-    ItemName: 'Pinsa romana',
-    ItemIngredients:
-      'Rice flour, olive oil, plain flour, sea salt, dried yeast.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'chicago-thin-crust-pizza',
-    ItemImg: ThinCrust,
-    ItemName: 'Chicago Thin Crust Pizza',
-    ItemIngredients:
-      'Sweet italian sausage, semolina flour, pizza sauce, giardiniera, sugar.',
-    ItemPrice: (13).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'greek-style-pizza',
-    ItemImg: GreekStyle,
-    ItemName: 'Greek-Style Pizza',
-    ItemIngredients:
-      'White cheddar, sauce, tomato paste, bread flour, red pepper flakes.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pizza-romana',
-    ItemImg: PizzaRomana,
-    ItemName: 'Pizza Romana',
-    ItemIngredients: 'Fresh mozzarella, bread flour, tomato, olive oil, yeast',
-    ItemPrice: (11).toFixed(2),
     Category: 'Tires',
     attributes: [
       {
@@ -1021,326 +670,13 @@ export const allProductsData = [
       },
     ],
   },
-  {
-    id: 'apizza-pizza-second',
-    ItemImg: Apizza,
-    ItemName: 'Apizza',
-    ItemIngredients:
-      'Ricotta cheese, tomato sauce, fresh basil pesto, fresh mozzarella cheese, semolina flour.',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'stuffed-pizza-second',
-    ItemImg: StuffedPizza,
-    ItemName: 'Stuffed Pizza',
-    ItemIngredients:
-      'Hot italian sausage, sweet italian sausage, pizza dough, red pepper flakes, olive oil.',
-    ItemPrice: (13).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pugliese-pizza-second',
-    ItemImg: Pugliese,
-    ItemName: 'Pugliese Pizza',
-    ItemIngredients:
-      'Sloppy joe, banana peppers, ground beef, pizza dough, ricotta cheese.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'tomato-pie-second',
-    ItemImg: TomatoPie,
-    ItemName: 'Tomato Pie',
-    ItemIngredients:
-      'Pizza dough, san marzano, red pepper flakes, pizza stone, olive oil.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'fugazza-second',
-    ItemImg: Fugaza,
-    ItemName: 'Fugazza',
-    ItemIngredients: 'Mozzarella cheese, sugar, dry yeast, all purpose flour.',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'fiori-di-zucca-second',
-    ItemImg: DiZucca,
-    ItemName: 'Pizza fiori di zucca',
-    ItemIngredients:
-      'Zucchini blossoms, pizza dough, buffalo mozzarella, olive oil.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'fugazzeta-second',
-    ItemImg: Fugazeta,
-    ItemName: 'Fugazzeta',
-    ItemIngredients:
-      'Feta cheese, mozzarella cheese, parmesan cheese, olive oil, yeast.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
+{
     id: 'parts-second',
     ItemImg: Parts,
     ItemName: 'Parts',
     ItemIngredients:
       'Refrigerated pizza crust, monterey jack cheese, parmesan cheese, butter, chicken bouillon.',
     ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'grandma-pie-second',
-    ItemImg: GranmaPie,
-    ItemName: 'Grandma Pie',
-    ItemIngredients:
-      'Dark brown sugar, san marzano tomatoes, tomato paste, bread flour, red pepper flakes.',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pizza-al-padellino-second',
-    ItemImg: Padellino,
-    ItemName: 'Pizza al padellino',
-    ItemIngredients:
-      'Mozzarella cheese, prosciutto di parma, dough, baby arugula, black pepper',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'california-style-pizza-second',
-    ItemImg: CaliforniaStyle,
-    ItemName: 'California-Style Pizza',
-    ItemIngredients:
-      'Feta cheese, marinated artichoke hearts, pizza crust, red bell pepper, red onion.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pizza-fritta-second',
-    ItemImg: Fritta,
-    ItemName: 'Pizza fritta',
-    ItemIngredients:
-      'Ricotta cheese, tomato sauce, tipo 00, neapolitan pizza base, mozzarella cheese.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pinsa-romana-second',
-    ItemImg: Romana,
-    ItemName: 'Pinsa romana',
-    ItemIngredients:
-      'Rice flour, olive oil, plain flour, sea salt, dried yeast.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'chicago-thin-crust-pizza-second',
-    ItemImg: ThinCrust,
-    ItemName: 'Chicago Thin Crust Pizza',
-    ItemIngredients:
-      'Sweet italian sausage, semolina flour, pizza sauce, giardiniera, sugar.',
-    ItemPrice: (13).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'greek-style-pizza-second',
-    ItemImg: GreekStyle,
-    ItemName: 'Greek-Style Pizza',
-    ItemIngredients:
-      'White cheddar, sauce, tomato paste, bread flour, red pepper flakes.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Tires',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'pizza-romana-second',
-    ItemImg: PizzaRomana,
-    ItemName: 'Pizza Romana',
-    ItemIngredients: 'Fresh mozzarella, bread flour, tomato, olive oil, yeast',
-    ItemPrice: (11).toFixed(2),
     Category: 'Tires',
     attributes: [
       {
@@ -1505,55 +841,6 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'lemon-ricotta-pasta',
-    ItemImg: LemonRicotta,
-    ItemName: 'Lemon Ricotta Pasta',
-    ItemIngredients: 'Spaghetti, ricotta, lemon, red pepper flakes, parmesan.',
-    ItemPrice: (13).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'stuffed-rigatoni',
-    ItemImg: StuffedRigatoni,
-    ItemName: 'Stuffed Rigatoni',
-    ItemIngredients:
-      'Ground turkey, rigatoni pasta, red pepper, mozzarella, parmesan.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'five-cheese-ziti-al-forno',
-    ItemImg: FiveCheese,
-    ItemName: 'Five-Cheese Ziti Al Forno',
-    ItemIngredients:
-      'Alfredo sauce, ricotta cheese, ziti pasta, marinara sauce, fontina cheese.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'chicken-florentine-pasta',
-    ItemImg: ChickenFlorentine,
-    ItemName: 'Chicken Florentine Pasta',
-    ItemIngredients:
-      'Skinless chicken breasts, linguine pasta, chicken broth, butter, baby spinach.',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'italian-mac-and-cheese',
-    ItemImg: MacCheese,
-    ItemName: 'Italian Mac and Cheese',
-    ItemIngredients:
-      'Italian sausage, pasta, cheese sauce, cream, baby spinach.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
     id: 'chicken-alfredo-second',
     ItemImg: ChickenAlfredo,
     ItemName: 'Chicken Alfredo',
@@ -1564,32 +851,12 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'pasta-alla-gricia-second',
-    ItemImg: AllaGricia,
-    ItemName: 'Pasta Alla Gricia',
-    ItemIngredients:
-      'Rigatoni pasta, pancetta, olive oil, pecorino romano, black pepper.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
     id: 'sheet-pan-burrata-caprese-gnocchi-second',
     ItemImg: SheetPan,
     ItemName: 'Sheet-Pan Burrata Caprese Gnocchi',
     ItemIngredients:
       'Penne pasta, sour cream, rotisserie chicken, cherry tomatoes, curly kale.',
     ItemPrice: (5).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'penne-alla-vodka-second',
-    ItemImg: AllaVodka,
-    ItemName: 'Penne Alla Vodka',
-    ItemIngredients:
-      'Tomato sauce, penne, heavy cream, red pepper flakes, butter.',
-    ItemPrice: (10).toFixed(2),
     Category: 'Lights',
     attributes: [],
   },
@@ -1702,65 +969,6 @@ export const allProductsData = [
     Category: 'Lights',
     attributes: [],
   },
-  {
-    id: 'lemon-ricotta-pasta-second',
-    ItemImg: LemonRicotta,
-    ItemName: 'Lemon Ricotta Pasta',
-    ItemIngredients: 'Spaghetti, ricotta, lemon, red pepper flakes, parmesan.',
-    ItemPrice: (13).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'stuffed-rigatoni-second',
-    ItemImg: StuffedRigatoni,
-    ItemName: 'Stuffed Rigatoni',
-    ItemIngredients:
-      'Ground turkey, rigatoni pasta, red pepper, mozzarella, parmesan.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'five-cheese-ziti-al-forno-second',
-    ItemImg: FiveCheese,
-    ItemName: 'Five-Cheese Ziti Al Forno',
-    ItemIngredients:
-      'Alfredo sauce, ricotta cheese, ziti pasta, marinara sauce, fontina cheese.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'chicken-florentine-pasta-second',
-    ItemImg: ChickenFlorentine,
-    ItemName: 'Chicken Florentine Pasta',
-    ItemIngredients:
-      'Skinless chicken breasts, linguine pasta, chicken broth, butter, baby spinach.',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'italian-mac-and-cheese-second',
-    ItemImg: MacCheese,
-    ItemName: 'Italian Mac and Cheese',
-    ItemIngredients:
-      'Italian sausage, pasta, cheese sauce, cream, baby spinach.',
-    ItemPrice: (8).toFixed(2),
-    Category: 'Lights',
-    attributes: [],
-  },
-  {
-    id: 'salmon-poke',
-    ItemImg: SalmonPoke,
-    ItemName: 'Salmon Poke',
-    ItemIngredients:
-      'Salmon, Avocado, Rice, Cabbage, Carrots, Creen onions, Sesame.',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
 
   {
     id: 'veggie-poke',
@@ -1772,16 +980,7 @@ export const allProductsData = [
     Category: 'Oils',
     attributes: [],
   },
-  {
-    id: 'mini-salmon-set-22-pcs',
-    ItemImg: MiniSalmon,
-    ItemName: 'Mini Salmon Set - 22Pcs',
-    ItemIngredients:
-      'Double Salmon Roll,Californication, Salmon Nigiri - 2Pcs, Eel Nigiri - 2Pcs,Vulcan Gunkan - 2Pcs',
-    ItemPrice: (35).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
+
   {
     id: 'the-bull-of-ombos-set-32-pcs',
     ItemImg: OmbosSeth,
@@ -1906,157 +1105,6 @@ export const allProductsData = [
     ItemIngredients:
       'Salmon, Kiwi, Carrot, Cream Cheese, Tobico, Cucumber, Rice, Nori.',
     ItemPrice: (13).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'the-roll-of-siamese',
-    ItemImg: Siamese,
-    ItemName: 'The Roll of Siamese',
-    ItemIngredients: 'Salmon, Cucumber, Carrot, Caviar, Rice.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'salmon-maki-raki-8-pcs',
-    ItemImg: SalmonMaki,
-    ItemName: 'Salmon Maki Raki 8Pcs',
-    ItemIngredients: 'Salmon, Cream Cheese, Rice, Nori.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-with-roasted-salmon-1-pc',
-    ItemImg: NigiriWithRoasted,
-    ItemName: 'Nigiri with Roasted Salmon 1Pc',
-    ItemIngredients: 'Roasted Salmon, Rice.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-with-salmon-and-orange-1-pc',
-    ItemImg: NigiriWithSalmon,
-    ItemName: 'Nigiri with Salmon and Orange 1Pc',
-    ItemIngredients: 'Salmon, Orange, Rice.',
-    ItemPrice: (4).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-with-eel-1-pc',
-    ItemImg: NigiriWithEel,
-    ItemName: 'Nigiri with Eel 1Pc',
-    ItemIngredients: 'Eel, rice.',
-    ItemPrice: (6).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'vulcan-tobiko',
-    ItemImg: VulcanTobiko,
-    ItemName: 'Vulcan Tobiko',
-    ItemIngredients: 'Delicious Gunkan with Tobiko and Rice.',
-    ItemPrice: (4).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'salmon-gunkan-with-cream-cheese',
-    ItemImg: SalmonGunkan,
-    ItemName: 'Salmon Gunkan with Cream Cheese',
-    ItemIngredients: 'Perfect sushi rice, Nigiri prawns, Cream cheese, Wasabi.',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'very-vegetarian-maki-8-pcs',
-    ItemImg: VeryVegetarian,
-    ItemName: 'Very Vegetarian Maki 8Pcs',
-    ItemIngredients: 'Avocado, Cream Cheese, Cucumber, Rice, Nori.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'avocado-maki-raki-8-pcs',
-    ItemImg: SushiOne,
-    ItemName: 'Avocado Maki Raki 8Pcs',
-    ItemIngredients: 'Avocado, Cream Cheese, Rice, Nori.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'cucumber-maki-raki-8-pcs',
-    ItemImg: CucumberMaki,
-    ItemName: 'Cucumber Maki Raki 8Pcs',
-    ItemIngredients: 'Cucumber, Sesame, Rice, Nori.',
-    ItemPrice: (4).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'hungry-set-64-pcs',
-    ItemImg: HungrySet,
-    ItemName: 'Hungry Set 64Pcs',
-    ItemIngredients:
-      'Californication,  Sunny Philadelphia Roll, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Very Vegetarian Maki Raki, Cucumber Maki Raki,  Avocado Maki Raki.',
-    ItemPrice: (50).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-ocean-14-pcs',
-    ItemImg: NigiriOcean,
-    ItemName: 'Nigiri Ocean - 14 Pcs',
-    ItemIngredients:
-      '14 Different Nigiris: Salmon Nigiri - 2Pcs, Salmon Nigiri with Orange - 2Pcs, Eel Nigiri - 2Pcs, Tuna Nigiri - 2Pcs, Fried Tuna Nigiri - 2Pcs, Fried Salmon Nigiri - 2Pcs, Kiwi Nigiri - 2Pcs',
-    ItemPrice: (40).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'foggy-albion-26-pcs',
-    ItemImg: FoggyAlbion,
-    ItemName: 'Foggy Albion - 26Pcs',
-    ItemIngredients:
-      'Sunny Philadelphia, Sebastian the Crab, Cucumber Maki Raki, Salmon Gunkan with Cream Cheese - 2Pcs',
-    ItemPrice: (30).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'stanley-kubrick-24-pcs',
-    ItemImg: StanleyKubrick,
-    ItemName: 'Stanley Kubrick - 24 Pcs',
-    ItemIngredients:
-      'Clockwork Orange Roll, Spicy Salmon Roll, Very Vegetarian Maki',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'salmon-poke-second',
-    ItemImg: SalmonPoke,
-    ItemName: 'Salmon Poke',
-    ItemIngredients:
-      'Salmon, Avocado, Rice, Cabbage, Carrots, Creen onions, Sesame.',
-    ItemPrice: (10).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-
-  {
-    id: 'veggie-poke-second',
-    ItemImg: VeggiePoke,
-    ItemName: 'Veggie Poke',
-    ItemIngredients:
-      'Rice, Avocado, Cabage, Carrot, Ginger, Green Onion, Sesam.',
-    ItemPrice: (8).toFixed(2),
     Category: 'Oils',
     attributes: [],
   },
@@ -2198,136 +1246,6 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'the-roll-of-siamese-second',
-    ItemImg: Siamese,
-    ItemName: 'The Roll of Siamese',
-    ItemIngredients: 'Salmon, Cucumber, Carrot, Caviar, Rice.',
-    ItemPrice: (15).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'salmon-maki-raki-8-pcs-second',
-    ItemImg: SalmonMaki,
-    ItemName: 'Salmon Maki Raki 8Pcs',
-    ItemIngredients: 'Salmon, Cream Cheese, Rice, Nori.',
-    ItemPrice: (9).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-with-roasted-salmon-1-pc-second',
-    ItemImg: NigiriWithRoasted,
-    ItemName: 'Nigiri with Roasted Salmon 1Pc',
-    ItemIngredients: 'Roasted Salmon, Rice.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-with-salmon-and-orange-1-pc-second',
-    ItemImg: NigiriWithSalmon,
-    ItemName: 'Nigiri with Salmon and Orange 1Pc',
-    ItemIngredients: 'Salmon, Orange, Rice.',
-    ItemPrice: (4).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-with-eel-1-pc-second',
-    ItemImg: NigiriWithEel,
-    ItemName: 'Nigiri with Eel 1Pc',
-    ItemIngredients: 'Eel, rice.',
-    ItemPrice: (6).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'vulcan-tobiko-second',
-    ItemImg: VulcanTobiko,
-    ItemName: 'Vulcan Tobiko',
-    ItemIngredients: 'Delicious Gunkan with Tobiko and Rice.',
-    ItemPrice: (4).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'salmon-gunkan-with-cream-cheese-second',
-    ItemImg: SalmonGunkan,
-    ItemName: 'Salmon Gunkan with Cream Cheese',
-    ItemIngredients: 'Perfect sushi rice, Nigiri prawns, Cream cheese, Wasabi.',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'very-vegetarian-maki-8-pcs-second',
-    ItemImg: VeryVegetarian,
-    ItemName: 'Very Vegetarian Maki 8Pcs',
-    ItemIngredients: 'Avocado, Cream Cheese, Cucumber, Rice, Nori.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'avocado-maki-raki-8-pcs-second',
-    ItemImg: SushiOne,
-    ItemName: 'Avocado Maki Raki 8Pcs',
-    ItemIngredients: 'Avocado, Cream Cheese, Rice, Nori.',
-    ItemPrice: (5).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'cucumber-maki-raki-8-pcs-second',
-    ItemImg: CucumberMaki,
-    ItemName: 'Cucumber Maki Raki 8Pcs',
-    ItemIngredients: 'Cucumber, Sesame, Rice, Nori.',
-    ItemPrice: (4).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'hungry-set-64-pcs-second',
-    ItemImg: HungrySet,
-    ItemName: 'Hungry Set 64Pcs',
-    ItemIngredients:
-      'Californication,  Sunny Philadelphia Roll, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Very Vegetarian Maki Raki, Cucumber Maki Raki,  Avocado Maki Raki.',
-    ItemPrice: (50).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-ocean-14-pcs-second',
-    ItemImg: NigiriOcean,
-    ItemName: 'Nigiri Ocean - 14 Pcs',
-    ItemIngredients:
-      '14 Different Nigiris: Salmon Nigiri - 2Pcs, Salmon Nigiri with Orange - 2Pcs, Eel Nigiri - 2Pcs, Tuna Nigiri - 2Pcs, Fried Tuna Nigiri - 2Pcs, Fried Salmon Nigiri - 2Pcs, Kiwi Nigiri - 2Pcs',
-    ItemPrice: (40).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'foggy-albion-26-pcs-second',
-    ItemImg: FoggyAlbion,
-    ItemName: 'Foggy Albion - 26Pcs',
-    ItemIngredients:
-      'Sunny Philadelphia, Sebastian the Crab, Cucumber Maki Raki, Salmon Gunkan with Cream Cheese - 2Pcs',
-    ItemPrice: (30).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
-    id: 'stanley-kubrick-24-pcs-second',
-    ItemImg: StanleyKubrick,
-    ItemName: 'Stanley Kubrick - 24 Pcs',
-    ItemIngredients:
-      'Clockwork Orange Roll, Spicy Salmon Roll, Very Vegetarian Maki',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Oils',
-    attributes: [],
-  },
-  {
     id: 'coca-cola-original-soda-pop',
     ItemImg: CocaCola,
     ItemName: 'Coca-Cola Original Soda Pop',
@@ -2361,25 +1279,9 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'dr-pepper-soda',
-    ItemImg: DrPepper,
-    ItemName: 'Dr Pepper Soda',
-    ItemPrice: (1).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
     id: 'sprite-caffeine-free-lemon-lime-soda-pop',
     ItemImg: SpriteCaffeine,
     ItemName: 'Sprite Caffeine-Free Lemon Lime Soda Pop',
-    ItemPrice: (2).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'great-value-sweet-brewed-iced-tea',
-    ItemImg: GreatValueSweet,
-    ItemName: 'Great Value Sweet Brewed Iced Tea',
     ItemPrice: (2).toFixed(2),
     Category: 'Filters',
     attributes: [],
@@ -2449,25 +1351,9 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'red-bull-energy-drink',
-    ItemImg: RedBull,
-    ItemName: 'Red Bull Energy Drink',
-    ItemPrice: (2).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
     id: 'a-w-caffeine-free-low-sodium-root-beer-soda-pop',
     ItemImg: Anw,
     ItemName: 'A&W Caffeine-Free, Low Sodium Root Beer Soda Pop',
-    ItemPrice: (3).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'pepsi-soda-pop',
-    ItemImg: PepsiSoda,
-    ItemName: 'Pepsi Soda Pop',
     ItemPrice: (3).toFixed(2),
     Category: 'Filters',
     attributes: [],
@@ -2477,30 +1363,6 @@ export const allProductsData = [
     ItemImg: GreatValue,
     ItemName: 'Great Value Cream Soda Pop',
     ItemPrice: (3).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'sunkist-orange-soda',
-    ItemImg: Sunkist,
-    ItemName: 'Sunkist Orange Soda',
-    ItemPrice: (1).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'great-value-twist-up-lemon-lime-soda-pop',
-    ItemImg: GreatValueTwist,
-    ItemName: 'Great Value Twist Up Lemon Lime Soda Pop',
-    ItemPrice: (2).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'fanta-orange-soda',
-    ItemImg: FantaOrange,
-    ItemName: 'Fanta Orange Soda',
-    ItemPrice: (1).toFixed(2),
     Category: 'Filters',
     attributes: [],
   },
@@ -2538,34 +1400,10 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'dr-pepper-soda-second',
-    ItemImg: DrPepper,
-    ItemName: 'Dr Pepper Soda',
-    ItemPrice: (1).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
     id: 'sprite-caffeine-free-lemon-lime-soda-pop-second',
     ItemImg: SpriteCaffeine,
     ItemName: 'Sprite Caffeine-Free Lemon Lime Soda Pop',
     ItemPrice: (2).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'great-value-sweet-brewed-iced-tea-second',
-    ItemImg: GreatValueSweet,
-    ItemName: 'Great Value Sweet Brewed Iced Tea',
-    ItemPrice: (2).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'stok-cold-brew-coffee-black-iunsweetened-second',
-    ItemImg: SToK,
-    ItemName: 'SToK Cold Brew Coffee, Black Unsweetened',
-    ItemPrice: (3).toFixed(2),
     Category: 'Filters',
     attributes: [],
   },
@@ -2626,25 +1464,9 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'red-bull-energy-drink-second',
-    ItemImg: RedBull,
-    ItemName: 'Red Bull Energy Drink',
-    ItemPrice: (2).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
     id: 'a-w-caffeine-free-low-sodium-root-beer-soda-pop-second',
     ItemImg: Anw,
     ItemName: 'A&W Caffeine-Free, Low Sodium Root Beer Soda Pop',
-    ItemPrice: (3).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'pepsi-soda-pop-second',
-    ItemImg: PepsiSoda,
-    ItemName: 'Pepsi Soda Pop',
     ItemPrice: (3).toFixed(2),
     Category: 'Filters',
     attributes: [],
@@ -2655,41 +1477,6 @@ export const allProductsData = [
     ItemName: 'Great Value Cream Soda Pop',
     ItemPrice: (3).toFixed(2),
     Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'sunkist-orange-soda-second',
-    ItemImg: Sunkist,
-    ItemName: 'Sunkist Orange Soda',
-    ItemPrice: (1).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'great-value-twist-up-lemon-lime-soda-pop-second',
-    ItemImg: GreatValueTwist,
-    ItemName: 'Great Value Twist Up Lemon Lime Soda Pop',
-    ItemPrice: (2).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'fanta-orange-soda-second',
-    ItemImg: FantaOrange,
-    ItemName: 'Fanta Orange Soda',
-    ItemPrice: (1).toFixed(2),
-    Category: 'Filters',
-    attributes: [],
-  },
-  {
-    id: 'nigiri-with-salmon-and-orange-1-pc-sale',
-    ItemImg: NigiriWithSalmon,
-    ItemName: 'Nigiri with Salmon and Orange 1Pc',
-    ItemIngredients: 'Salmon, Orange, Rice.',
-    ItemPriceBefore: (4).toFixed(2),
-    ItemPrice: (3).toFixed(2),
-    Category: 'Breaks',
-    sale: true,
     attributes: [],
   },
   {
@@ -2788,17 +1575,6 @@ export const allProductsData = [
     attributes: [],
   },
 
-  {
-    id: 'nigiri-with-salmon-and-orange-1-pc-sale-second',
-    ItemImg: NigiriWithSalmon,
-    ItemName: 'Nigiri with Salmon and Orange 1Pc',
-    ItemIngredients: 'Salmon, Orange, Rice.',
-    ItemPriceBefore: (4).toFixed(2),
-    ItemPrice: (3).toFixed(2),
-    Category: 'Breaks',
-    sale: true,
-    attributes: [],
-  },
   {
     id: 'pepperoni-pizza-sale-second',
     ItemImg: PepperoniPizza,

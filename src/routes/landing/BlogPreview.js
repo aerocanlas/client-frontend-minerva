@@ -41,13 +41,7 @@ export default class BlogPreview extends React.Component {
           ))}
         </section>
 
-        <Link
-          onClick={ResetLocation}
-          to="/blog"
-          className="active-button-style txt-white"
-        >
-          More posts
-        </Link>
+
       </motion.div>
 
     )
