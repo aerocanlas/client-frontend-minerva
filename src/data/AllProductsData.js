@@ -67,9 +67,9 @@ import KiwiRoll from '../assets/images/sushi-images/sushi-11.png'
 
 export const allProductsData = [
   {
-    id: 'cheese-pizza',
+    id: 'dunlop-175/65R14-82H',
     ItemImg: CheesePizza,
-    ItemName: 'Cheese Pizza',
+    ItemName: 'Dunlop 175/65R14 82H',
     ItemIngredients: 'Pizza dough, pizza sauce, provolone cheese, mozzarella.',
     ItemPrice: (2).toFixed(2),
     Category: 'Tires',
@@ -88,9 +88,9 @@ export const allProductsData = [
   },
 
   {
-    id: 'veggie-pizza',
+    id: 'Yokohama-195/60R15-88H',
     ItemImg: VeggiePizza,
-    ItemName: 'Veggie Pizza',
+    ItemName: 'Yokohama	195/60R15 88H',
     ItemIngredients:
       'Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.',
     ItemPrice: (9).toFixed(2),
@@ -109,9 +109,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'pepperoni-pizza',
+    id: 'Dunlop-195/65R15-91H',
     ItemImg: PepperoniPizza,
-    ItemName: 'Pepperoni Pizza',
+    ItemName: 'Dunlop 195/65R15 91H',
     ItemIngredients:
       'Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.',
     ItemPrice: (5).toFixed(2),
@@ -130,9 +130,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'meat-pizza',
+    id: 'Kumho-185/65R15-88H',
     ItemImg: MeatPizza,
-    ItemName: 'Meat Pizza',
+    ItemName: 'Kumho 185/65R15 88H',
     ItemIngredients:
       'Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.',
     ItemPrice: (10).toFixed(2),
@@ -151,9 +151,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'margherita-pizza',
+    id: 'Dunlop-185/70R14-88H',
     ItemImg: MargheritaPizza,
-    ItemName: 'Margherita Pizza',
+    ItemName: 'Dunlop 185/70R14 88H',
     ItemIngredients:
       'Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.',
     ItemPrice: (8).toFixed(2),
@@ -172,9 +172,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'bbq-chicken-pizza',
+    id: 'Yokohama-185/60R15-84H',
     ItemImg: BBQPizza,
-    ItemName: 'BBQ Chicken Pizza',
+    ItemName: 'Yokohama	185/60R15 84H',
     ItemIngredients:
       'Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.',
     ItemPrice: (10).toFixed(2),
@@ -193,9 +193,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'alla-pala-pizza',
+    id: 'Yokohama-185/65R15-88H',
     ItemImg: AllaPalla,
-    ItemName: 'Pizza alla pala',
+    ItemName: 'Yokohama 185/65R15 88H',
     ItemIngredients: 'Cheese, cherry tomatoes, arugula, olive oil, yeast.',
     ItemPrice: (12).toFixed(2),
     Category: 'Tires',
@@ -213,9 +213,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'prosciutto-e-funghi-pizza',
+    id: 'Dunlop-185/65R15-88H',
     ItemImg: Prosciutto,
-    ItemName: 'Prosciutto e Funghi Pizza',
+    ItemName: 'Dunlop	185/65R15 88H',
     ItemIngredients:
       'Italian sausage meat, truffle oil, pizza dough, san marzano tomatoes, bocconcini cheese.',
     ItemPrice: (8).toFixed(2),
@@ -234,9 +234,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'detroit-style-pizza',
+    id: 'Dunlop-185/65R15-88H',
     ItemImg: DetroitStyle,
-    ItemName: 'Detroit-Style Pizza',
+    ItemName: 'Dunlop	185/65R15 88H',
     ItemIngredients:
       'Pizza dough, pizza sauce, brick cheese, rapid rise yeast, olive oil.',
     ItemPrice: (11).toFixed(2),
@@ -255,9 +255,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'garlic-fingers',
+    id: 'Michelin-205/65R16-95V',
     ItemImg: GarlicFingers,
-    ItemName: 'Garlic Fingers',
+    ItemName: 'Michelin 205/65R16 95V',
     ItemIngredients:
       'Bread flour, mozzarella cheese, butter, olive oil, instant yeast.',
     ItemPrice: (7).toFixed(2),
@@ -276,9 +276,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'st-ouis-style-pizza',
+    id: 'Toyo-Tires-195/R15-106S',
     ItemImg: StLous,
-    ItemName: 'St. Louis-Style Pizza',
+    ItemName: 'Toyo Tires	195/R15 106S',
     ItemIngredients:
       'Liquid smoke, swiss cheese, white cheddar cheese, light corn syrup, pizza sauce.',
     ItemPrice: (13).toFixed(2),
@@ -297,9 +297,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'rustica-pizza',
+    id: 'Kumho-102/100R-KC53',
     ItemImg: Rustica,
-    ItemName: 'Pizza Rustica',
+    ItemName: 'Kumho 102/100R KC53',
     ItemIngredients: 'Prosciutto, pepperoni, mozzarella, crust, eggs.',
     ItemPrice: (13).toFixed(2),
     Category: 'Tires',
@@ -317,9 +317,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'pesto-genovese-pizza',
+    id: 'Michelin-195/80R15C-108/106S',
     ItemImg: Genovese,
-    ItemName: 'Pizza pesto Genovese',
+    ItemName: 'Michelin	195/80R15C 108/106S',
     ItemIngredients:
       'Pine nuts, baby potatoes, snow pea shoots, lemon, buffalo mozzarella.',
     ItemPrice: (13).toFixed(2),
@@ -338,9 +338,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'e-fichi-pizza',
+    id: 'Kumho-185/65R15-88H',
     ItemImg: Efichi,
-    ItemName: 'Pizza e fichi',
+    ItemName: 'Kumho 185/65R15 88H',
     ItemIngredients: 'Coconut flour, truffle oil, fig jam, cheese, prosciutto.',
     ItemPrice: (12).toFixed(2),
     Category: 'Tires',
@@ -359,9 +359,9 @@ export const allProductsData = [
   },
 
   {
-    id: 'parts',
+    id: 'Yokohama-185/60R15-84H',
     ItemImg: Parts,
-    ItemName: 'Parts',
+    ItemName: 'Yokohama 185/60R15 84H',
     ItemIngredients:
       'Refrigerated pizza crust, monterey jack cheese, parmesan cheese, butter, chicken bouillon.',
     ItemPrice: (8).toFixed(2),
@@ -380,9 +380,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'extra-cheese-pizza',
+    id: 'Kumho-185/60R15-84H',
     ItemImg: ExtraCheesePizza,
-    ItemName: 'Extra Cheese Pizza',
+    ItemName: 'Kumho	185/60R15 84H',
     ItemIngredients: 'Homemade pizza sauce, fresh mozzarella cheese, mozzarella cheese, parmesan cheese, olive oil',
     ItemPrice: (5).toFixed(2),
     Category: 'Tires',
@@ -401,9 +401,9 @@ export const allProductsData = [
   },
 
   {
-    id: 'veggie-pizza-second',
+    id: 'Toyo-Tires-265/60R18-114V',
     ItemImg: VeggiePizza,
-    ItemName: 'Veggie Pizza',
+    ItemName: 'Toyo Tires 265/60R18 114V',
     ItemIngredients:
       'Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.',
     ItemPrice: (9).toFixed(2),
@@ -422,9 +422,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'pepperoni-pizza-second',
+    id: 'BF-Goodrich-LT265/60R18-119/16S',
     ItemImg: PepperoniPizza,
-    ItemName: 'Pepperoni Pizza',
+    ItemName: 'BF Goodrich	LT265/60R18 119/16S',
     ItemIngredients:
       'Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.',
     ItemPrice: (5).toFixed(2),
@@ -443,9 +443,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'meat-pizza-second',
+    id: 'Michelin-265/65-R17',
     ItemImg: MeatPizza,
-    ItemName: 'Meat Pizza',
+    ItemName: 'Michelin	265/65 R17',
     ItemIngredients:
       'Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.',
     ItemPrice: (10).toFixed(2),
@@ -464,9 +464,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'margherita-pizza-second',
+    id: 'Nitto-Terra-Grappler-G2-265/60R18-114T-XL',
     ItemImg: MargheritaPizza,
-    ItemName: 'Margherita Pizza',
+    ItemName: 'Nitto Terra Grappler G2 265/60R18 114T XL',
     ItemIngredients:
       'Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.',
     ItemPrice: (8).toFixed(2),
@@ -485,9 +485,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'bbq-chicken-pizza-second',
+    id: 'Dunlop-Grandtek-AT5-265/60R18-110H',
     ItemImg: BBQPizza,
-    ItemName: 'BBQ Chicken Pizza',
+    ItemName: 'Dunlop-Grandtek-AT5-265/60R18-110H',
     ItemIngredients:
       'Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.',
     ItemPrice: (10).toFixed(2),
@@ -506,9 +506,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'alla-pala-pizza-second',
+    id: 'Dunlop-Grandtek-AT20-265/65R17-112S',
     ItemImg: AllaPalla,
-    ItemName: 'Pizza alla pala',
+    ItemName: 'Dunlop Grandtek AT20	265/65R17 112S',
     ItemIngredients: 'Cheese, cherry tomatoes, arugula, olive oil, yeast.',
     ItemPrice: (12).toFixed(2),
     Category: 'Tires',
@@ -526,9 +526,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'prosciutto-e-funghi-pizza-second',
+    id: 'Toyo-Tires-LT265/65-R17-116Q',
     ItemImg: Prosciutto,
-    ItemName: 'Prosciutto e Funghi Pizza',
+    ItemName: 'Toyo Tires LT265/65 R17 116Q',
     ItemIngredients:
       'Italian sausage meat, truffle oil, pizza dough, san marzano tomatoes, bocconcini cheese.',
     ItemPrice: (8).toFixed(2),
@@ -547,9 +547,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'detroit-style-pizza-second',
+    id: 'Dunlop-Grandtek-TG32-215/70R16-99S',
     ItemImg: DetroitStyle,
-    ItemName: 'Detroit-Style Pizza',
+    ItemName: 'Dunlop Grandtek TG32	215/70R16 99S',
     ItemIngredients:
       'Pizza dough, pizza sauce, brick cheese, rapid rise yeast, olive oil.',
     ItemPrice: (11).toFixed(2),
@@ -568,9 +568,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'garlic-fingers-second',
+    id: 'Kumho-PorTran-215/70-R16C-108/106T',
     ItemImg: GarlicFingers,
-    ItemName: 'Garlic Fingers',
+    ItemName: 'Kumho PorTran	215/70 R16C 108/106T',
     ItemIngredients:
       'Bread flour, mozzarella cheese, butter, olive oil, instant yeast.',
     ItemPrice: (7).toFixed(2),
@@ -589,9 +589,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'st-ouis-style-pizza-second',
+    id: 'Dunlop-Grandtek-AT20-265/60R18-110H',
     ItemImg: StLous,
-    ItemName: 'St. Louis-Style Pizza',
+    ItemName: 'Dunlop Grandtek AT20	265/60R18 110H',
     ItemIngredients:
       'Liquid smoke, swiss cheese, white cheddar cheese, light corn syrup, pizza sauce.',
     ItemPrice: (13).toFixed(2),
@@ -610,9 +610,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'rustica-pizza-second',
+    id: 'Dunlop-Grandtek-ST20-215/65-R16-98H',
     ItemImg: Rustica,
-    ItemName: 'Pizza Rustica',
+    ItemName: 'Dunlop Grandtek ST20	215/65 R16 98H',
     ItemIngredients: 'Prosciutto, pepperoni, mozzarella, crust, eggs.',
     ItemPrice: (13).toFixed(2),
     Category: 'Tires',
@@ -630,9 +630,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'pesto-genovese-pizza-second',
+    id: 'Dunlop-SP-Sport-205/65R16-95H',
     ItemImg: Genovese,
-    ItemName: 'Pizza pesto Genovese',
+    ItemName: 'Dunlop SP Sport 205/65R16 95H',
     ItemIngredients:
       'Pine nuts, baby potatoes, snow pea shoots, lemon, buffalo mozzarella.',
     ItemPrice: (13).toFixed(2),
@@ -651,9 +651,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'e-fichi-pizza-second',
+    id: 'Kumho-Tire-205/55-R16-XL-94V',
     ItemImg: Efichi,
-    ItemName: 'Pizza e fichi',
+    ItemName: 'Kumho Tire	205/55 R16 XL 94V',
     ItemIngredients: 'Coconut flour, truffle oil, fig jam, cheese, prosciutto.',
     ItemPrice: (12).toFixed(2),
     Category: 'Tires',
@@ -671,9 +671,9 @@ export const allProductsData = [
     ],
   },
 {
-    id: 'parts-second',
+    id: 'Thunderer-Mach-IV-R203-165/65R13-77T',
     ItemImg: Parts,
-    ItemName: 'Parts',
+    ItemName: 'Thunderer Mach IV R203	165/65R13 77T',
     ItemIngredients:
       'Refrigerated pizza crust, monterey jack cheese, parmesan cheese, butter, chicken bouillon.',
     ItemPrice: (8).toFixed(2),
@@ -692,13 +692,13 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'chicken-alfredo',
+    id: 'Kumho-Tires-ECSTA-PS31-205/45-ZR16-XL-87W',
     ItemImg: ChickenAlfredo,
-    ItemName: 'Chicken Alfredo',
+    ItemName: 'Kumho Tires ECSTA PS31	205/45 ZR16 XL 87W',
     ItemIngredients:
       'Skinless chicken breast, heavy cream, olive oil, parmigiano reggiano, black pepper.',
     ItemPrice: (2).toFixed(2),
-    Category: 'Lights',
+    Category: 'Tires',
     attributes: [],
   },
   {
@@ -1648,7 +1648,7 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell-Helix-Power-Carbon-Neutral-0w-40-4L',
+    id: 'Shell Helix Power Carbon Neutral 0w-40 4L',
     ItemImg: LambRagu,
     ItemName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
     ItemIngredients:
@@ -1660,7 +1660,7 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Eurol-Super-Lite-5W-40-1L',
+    id: 'Eurol TurboCat 10W-40 1L',
     ItemImg: CheesePizza,
     ItemName: 'Eurol Super Lite 5W-40 1L',
     ItemIngredients: 'Semi-synthetic engine oil for petrol and diesel engines',

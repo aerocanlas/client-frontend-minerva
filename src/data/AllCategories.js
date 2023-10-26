@@ -8,8 +8,8 @@ export const AllCategories = [
     id: "Tires",
   },
   {
-    name: "Lights",
-    id: "Lights",
+    name: "Mags",
+    id: "Mags",
   },
   {
     name: "Oils",
@@ -20,7 +20,7 @@ export const AllCategories = [
     id: "Filters",
   },
   {
-    name: "Breaks",
-    id: "Breaks",
+    name: "Battery",
+    id: "Battery",
   },
 ];

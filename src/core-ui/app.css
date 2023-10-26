@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nothing+You+Could+Do&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 :root {
   --poppins-font: "Poppins", sans-serif;
   --josefin-font: "Sansita Swashed", cursive;
   --nothing-font: "Nothing You Could Do", cursive;
+  --merriweather-font: "Merriweather";
   --white: #ffffff;
   --light-gray: #919191;
   --whitish-gray: #bfbfbf;
@@ -219,7 +221,7 @@ header {
 
 .header-info span {
   color: var(--pizza-red);
-  font-family: var(--nothing-font);
+  font-family: var(--merriweather-font);
   font-size: 2rem;
 }
 
@@ -311,7 +313,7 @@ header {
 }
 
 .section-2-info h2 span {
-  font-family: var(--nothing-font);
+  font-family: var(--merriweather-font);
   color: var(--yellow);
 }
 
