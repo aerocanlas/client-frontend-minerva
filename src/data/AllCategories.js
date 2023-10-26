@@ -1,7 +1,7 @@
 export const AllCategories = [
   {
-    name: "Accesories",
-    id: "Accesories",
+    name: "Accessories",
+    id: "Accessories",
   },
   {
     name: "Tires",

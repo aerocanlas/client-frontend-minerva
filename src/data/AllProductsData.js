@@ -821,7 +821,7 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Helix Power Carbon Neutral 0w-40 1 liter',
+    id: 'Shell-Helix-Power-Carbon-Neutral-0w-40-1L',
     ItemImg: LambRagu,
     ItemName: 'Shell Helix Power Carbon Neutral 0w-40 (4 Liters)',
     ItemIngredients:
@@ -1227,7 +1227,7 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Helix Power Carbon Neutral 0w-40 4L',
+    id: 'Shell-Helix-Power-Carbon-Neutral-0w-40-4L',
     ItemImg: ClockworkOrange,
     ItemName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
     ItemIngredients: 'Engine oil volume: 4 Liters. Viscosity grade: 0W-40. Compatible with gasoline and diesel car engine oil.',
@@ -1236,7 +1236,7 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Helix Power Carbon Neutral 0w-40 4L',
+    id: 'Shell-Helix-Power-Carbon-Neutral-0w-40-4L',
     ItemImg: KiwiRoll,
     ItemName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
     ItemIngredients:
@@ -1612,7 +1612,7 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Helix HX8 Fully Synthetic 5W-40 1L',
+    id: 'Shell-Helix-HX8-Fully-Synthetic-5W-40-1L',
     ItemImg: MargheritaPizza,
     ItemName: 'Shell Helix HX8 Fully Synthetic 5W-40 1L',
     ItemIngredients:
@@ -1624,9 +1624,9 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Spirax S1 ATF TASA Transmission Fluid 1L',
+    id: 'Shell-Spirax-S1-ATF-TASA-Transmission-Fluid-1L',
     ItemImg: VeggiePizza,
-    ItemName: 'Shell Spirax S1 ATF TASA Transmission Fluid 1L',
+    ItemName: 'Shell Spirax Transmission Fluid 1L',
     ItemIngredients:
       'Quality Type A Suffix A Automatic Transmission and Hydraulic Fluid',
     ItemPriceBefore: (9).toFixed(2),
@@ -1636,9 +1636,9 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Wurth Ultra 2040 Multi-Purpose Lubricant 150ML',
+    id: 'Wurth-Ultra-2040-Multi-Purpose-Lubricant-150ML',
     ItemImg: Sebastian,
-    ItemName: 'Wurth Ultra 2040 Multi-Purpose Lubricant 150ML',
+    ItemName: 'Wurth Ultra Lubricant 150ML',
     ItemIngredients:
       'Loosens seized and rusted parts With PTFE and 360° valve Silicone-free Removes moisture from electrical systems Strong water displacement effect',
     ItemPriceBefore: (13).toFixed(2),
@@ -1648,24 +1648,24 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Helix Power Carbon Neutral 0w-40 4L',
+    id: 'Shell-Helix-Power-Carbon-Neutral-0w-40-4L',
     ItemImg: LambRagu,
     ItemName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
     ItemIngredients:
       'Engine oil volume: 4 Liters. Viscosity grade: 0W-40. Compatible with gasoline and diesel car engine oil.',
-    ItemPriceBefore: (12).toFixed(2),
-    ItemPrice: (11).toFixed(2),
+    ItemPriceBefore: (1200).toFixed(2),
+    ItemPrice: (1000).toFixed(2),
     Category: 'Oil',
     sale: true,
     attributes: [],
   },
   {
-    id: 'Eurol TurboCat 10W-40 1L',
+    id: 'Eurol-Super-Lite-5W-40-1L',
     ItemImg: CheesePizza,
-    ItemName: 'Eurol TurboCat 10W-40 1L',
+    ItemName: 'Eurol Super Lite 5W-40 1L',
     ItemIngredients: 'Semi-synthetic engine oil for petrol and diesel engines',
-    ItemPriceBefore: (2).toFixed(2),
-    ItemPrice: (1).toFixed(2),
+    ItemPriceBefore: (350).toFixed(2),
+    ItemPrice: (300).toFixed(2),
     Category: 'Breaks',
     sale: true,
     attributes: [],

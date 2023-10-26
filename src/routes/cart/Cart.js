@@ -9,7 +9,7 @@ const Cart = ({ cartItems, CartItem }) => {
   }, []);
   return (
     <main className="cart">
-      <h2>Shopping cart</h2>
+      <h2>Shopping Cart</h2>
       <article className="cart-content">
         {cartItems.length === 0 ? <EmptyCart /> : CartItem}
       </article>
