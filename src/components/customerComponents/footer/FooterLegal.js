@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ResetLocation from "../../helpers/ResetLocation";
+import ResetLocation from "../../../helpers/ResetLocation";
 
 export default class FooterLegal extends React.Component {
     render() {

@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import React, { lazy, useEffect, useState} from 'react'
+import { themeChange } from 'theme-change'
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import Header from './routes/landing/Header.js';
-import Footer from './components/footer/Footer';
+import Footer from './components/customerComponents/footer/Footer';
 import {
   About,
   Blog,
@@ -18,7 +19,7 @@ import { allProductsData } from './data/AllProductsData.js';
 import { AllCategories } from './data/AllCategories';
 import CheckoutSummary from './routes/checkout/CheckoutSummary.js';
 import CartTotals from './routes/cart/CartTotals.js';
-import LoginModal from './components/login/LoginModal.js';
+import LoginModal from './components/customerComponents/login/LoginModal.js';
 import CartItem from './routes/cart/CartItem.js';
 import NotFound from './routes/not-found/NotFound.js';
 import Refunds from './routes/refunds/Refunds.js';
@@ -28,7 +29,21 @@ import BlogPost from './routes/blog-post/BlogPost.js';
 import Profile from './routes/profile/Profile.js';
 import ResetLocation from './helpers/ResetLocation.js';
 
+const Layout = lazy(() => import('./containers/Layout'))
+const Login = lazy(() => import('./pages/Login'))
+const ForgotPassword = lazy(() => import('./pages/ForgotPassword'))
+const Registers = lazy(() => import('./pages/Register'))
+const Documentation = lazy(() => import('./pages/Documentation'))
+
 function App() {
+
+  useEffect(() => {
+    // 👆 daisy UI themes initialization
+    themeChange(false)
+  }, [])
+
+  
+
   const [allCategories, setAllCategories] = useState([]);
   const [activeCategory, setActiveCategory] = useState('Menu');
   const [cartItems, setCartItems] = useState([]);
@@ -41,7 +56,6 @@ function App() {
   const [isModalActive, setIsModalActive] = useState(false);
   const [loginModalWindow, setLoginModalWindow] = useState(false);
   const [currentUser, setCurrentUser] = useState({});
-
 
   const getUser = async (id) => {
     try {
@@ -400,6 +414,7 @@ function App() {
   };
 
   return (
+    
     <BrowserRouter>
       <Header
         loginModal={
@@ -520,7 +535,24 @@ function App() {
       </Routes>
 
       <Footer />
+      <>
+        <Router>
+          <Routes>
+            <Route path="/login" element={<Login />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/documentation" element={<Documentation />} />
+            
+            {/* Place new routes over this */}
+            <Route path="/app/*" element={<Layout />} />
+
+            <Route path="*" element={<useNavigate to={token ? "/login" : "/customers"} replace />}/>
+
+          </Routes>
+        </Router>
+      </>
     </BrowserRouter>
+    
   );
 }
 

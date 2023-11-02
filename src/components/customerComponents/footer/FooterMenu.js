@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import FooterSocials from "./FooterSocials";
-import ResetLocation from "../../helpers/ResetLocation";
+import ResetLocation from "../../../helpers/ResetLocation";
 
 export default class FooterMenu extends React.Component {
   render() {
