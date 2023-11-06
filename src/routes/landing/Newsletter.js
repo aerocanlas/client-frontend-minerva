@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import validateForm from "../../components/validateForm";
+import validateForm from "../../components/customerComponents/validateForm";
 
 const Newsletter = () => {
   const [formValue, setFormValue] = useState({ email: "" });

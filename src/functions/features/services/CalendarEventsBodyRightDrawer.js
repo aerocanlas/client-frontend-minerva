@@ -1,4 +1,4 @@
-import { CALENDAR_EVENT_STYLE } from "../../components/CalendarView/util"
+import { CALENDAR_EVENT_STYLE } from "../components/adminComponents/CalendarView/util"
 
 const THEME_BG = CALENDAR_EVENT_STYLE
 

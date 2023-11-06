@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 import { useNavigate } from "react-router-dom";
-import validateForm from "../../components/validateForm";
+import validateForm from "../../components/customerComponents/validateForm";
 
 
 const Profile = ({ currentUser, handleLogout, updateUser }) => {

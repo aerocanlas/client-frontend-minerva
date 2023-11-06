@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import validateForm from "../../components/validateForm";
+import validateForm from "../../components/customerComponents/validateForm";
 import { v4 as uuidv4 } from 'uuid';
 import ResetLocation from "../../helpers/ResetLocation";
 const Register = ({ activateLoginModal }) => {

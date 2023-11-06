@@ -33,7 +33,6 @@ const Layout = lazy(() => import('./containers/Layout'))
 const Login = lazy(() => import('./pages/Login'))
 const ForgotPassword = lazy(() => import('./pages/ForgotPassword'))
 const Registers = lazy(() => import('./pages/Register'))
-const Documentation = lazy(() => import('./pages/Documentation'))
 
 function App() {
 

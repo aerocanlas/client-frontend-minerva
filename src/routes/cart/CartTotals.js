@@ -1,6 +1,6 @@
 import React from "react";
 import CheckoutBtn from "../checkout/CheckoutBtn";
-import LinkButton from "../../components/Button";
+import LinkButton from "../../components/customerComponents/Button";
 import ResetLocation from "../../helpers/ResetLocation";
 import { Link } from "react-router-dom";
 

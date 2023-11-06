@@ -1,8 +1,8 @@
 import {useState, useRef} from 'react'
 import {Link} from 'react-router-dom'
 import LandingIntro from './LandingIntro'
-import ErrorText from  '../../components/Typography/ErrorText'
-import InputText from '../../components/Input/InputText'
+import ErrorText from  '../components/adminComponents/Typography/ErrorText'
+import InputText from '../components/adminComponents/Input/InputText'
 import axios from 'axios'
 
 function Register(){

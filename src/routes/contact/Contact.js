@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import ReCAPTCHA from "react-google-recaptcha"
 import { Link } from "react-router-dom";
 //components
-import validateForm from "../../components/validateForm";
+import validateForm from "../../components/customerComponents/validateForm";
 import ResetLocation from "../../helpers/ResetLocation";
 
 const Contact = () => {

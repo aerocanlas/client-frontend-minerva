@@ -1,7 +1,7 @@
 import {useState, useRef} from 'react'
 import {Link} from 'react-router-dom'
-import ForgotPassword from '../features/user/ForgotPassword'
-import Login from '../features/user/Login'
+import ForgotPassword from '../functions/features/user/ForgotPassword'
+import Login from '../functions/features/user/Login'
 
 function ExternalPage(){
 

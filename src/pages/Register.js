@@ -1,6 +1,6 @@
 import {useState, useRef} from 'react'
 import {Link} from 'react-router-dom'
-import Register from '../features/user/Register'
+import Register from '../functions/features/user/Register'
 
 function ExternalPage(){
 

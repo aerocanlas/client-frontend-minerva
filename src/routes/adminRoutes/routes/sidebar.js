@@ -3,7 +3,7 @@
 import CalendarDaysIcon from '@heroicons/react/24/outline/CalendarDaysIcon'
 import UserIcon from '@heroicons/react/24/outline/UserIcon'
 import Cog6ToothIcon from '@heroicons/react/24/outline/Cog6ToothIcon'
-import UserGroupIcon from '@heroicons/react/24/outline/UserGroupIcon.js'
+  // import UserGroupIcon from '@heroicons/react/24/outline/UserGroupIcon.js'
 import RectangleStackIcon from '@heroicons/react/24/outline/RectangleStackIcon'
 import ShoppingBagIcon from '@heroicons/react/24/outline/ShoppingBagIcon'
 import PresentationChartLineIcon from '@heroicons/react/24/outline/PresentationChartLineIcon'
