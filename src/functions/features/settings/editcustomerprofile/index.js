@@ -1,11 +1,11 @@
 import moment from "moment"
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import TitleCard from "../../../components/Cards/TitleCard"
+import TitleCard from "../../../../../src/components/adminComponents/Cards/TitleCard"
 import { showNotification } from '../../common/headerSlice'
-import InputText from '../../../components/Input/InputText'
-import TextAreaInput from '../../../components/Input/TextAreaInput'
-import ToogleInput from '../../../components/Input/ToogleInput'
+import InputText from '../../../../../src/components/adminComponents/Input/InputText'
+import TextAreaInput from '../../../../../src/components/adminComponents/Input/TextAreaInput'
+import ToogleInput from '../../../../../src/components/adminComponents/Input/ToogleInput'
 
 function EditCustomerProfile(){
 

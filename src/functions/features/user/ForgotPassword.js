@@ -1,8 +1,8 @@
 import {useState, useRef} from 'react'
 import {Link} from 'react-router-dom'
 import LandingIntro from './LandingIntro'
-import ErrorText from  '../components/adminComponents/components/Typography/ErrorText'
-import InputText from '../../components/Input/InputText'
+import ErrorText from '../../../../src/components/adminComponents/Typography/ErrorText'
+import InputText from '../../../../src/components/adminComponents/Input/InputText'
 import CheckCircleIcon  from '@heroicons/react/24/solid/CheckCircleIcon'
 
 function ForgotPassword(){

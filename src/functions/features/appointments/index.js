@@ -2,14 +2,14 @@ import moment from "moment"
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { showNotification } from "../common/headerSlice"
-import TitleCard from "../../components/Cards/TitleCard"
-import { RECENT_TRANSACTIONS } from "../../utils/dummyData"
+import TitleCard from "../../../../src/components/adminComponents/Cards/TitleCard"
+import { RECENT_TRANSACTIONS } from "../../../../src/utils/dummyData"
 import FunnelIcon from '@heroicons/react/24/outline/FunnelIcon'
 import XMarkIcon from '@heroicons/react/24/outline/XMarkIcon'
-import SearchBar from "../../components/Input/SearchBar"
+import SearchBar from "../../../../src/components/adminComponents/Input/SearchBar"
 import TrashIcon from '@heroicons/react/24/outline/TrashIcon'
 import PencilSquareIcon from '@heroicons/react/24/outline/PencilSquareIcon'
-import { CONFIRMATION_MODAL_CLOSE_TYPES, MODAL_BODY_TYPES } from '../../utils/globalConstantUtil'
+import { CONFIRMATION_MODAL_CLOSE_TYPES, MODAL_BODY_TYPES } from '../../../../src/utils/globalConstantUtil'
 import { openModal } from "../common/modalSlice"
 
 

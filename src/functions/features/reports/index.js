@@ -2,16 +2,16 @@ import moment from "moment"
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { showNotification } from "../common/headerSlice"
-import TitleCard from "../../components/Cards/TitleCard"
-import { RECENT_TRANSACTIONS } from "../../utils/dummyData"
-import { RECENT_TYPE } from "../../utils/dummyData"
+import TitleCard from "../../../../src/components/adminComponents/Cards/TitleCard"
+import { RECENT_TRANSACTIONS } from "../../../../src/utils/dummyData"
+import { RECENT_TYPE } from "../../../../src/utils/dummyData"
 import FunnelIcon from '@heroicons/react/24/outline/FunnelIcon'
 import ChevronDownIcon from '@heroicons/react/24/outline/ChevronDownIcon'
 import XMarkIcon from '@heroicons/react/24/outline/XMarkIcon'
-import SearchBar from "../../components/Input/SearchBar"
+import SearchBar from "../../../../src/components/adminComponents/Input/SearchBar"
 import TrashIcon from '@heroicons/react/24/outline/TrashIcon'
 import PencilSquareIcon from '@heroicons/react/24/outline/PencilSquareIcon'
-import InputText from '../../components/Input/InputText'
+import InputText from '../../../../src/components/adminComponents/Input/InputText'
 
 
 const TopSideButtons = ({removeFilter, applyFilter, applySearch}) => {

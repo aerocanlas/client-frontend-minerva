@@ -1,9 +1,9 @@
 import {useState, useRef, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import LandingIntro from './LandingIntro'
-import ErrorText from  '../../components/Typography/ErrorText'
-import InputText from '../../components/Input/InputText'
-import jwtDecode from 'jwt-decode'
+import ErrorText from '../../../../src/components/adminComponents/Typography/ErrorText'
+import InputText from '../../../../src/components/adminComponents/Input/InputText'
+import {jwtDecode} from 'jwt-decode'
 
 function Login(){
 

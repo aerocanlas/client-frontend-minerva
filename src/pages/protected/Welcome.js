@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { setPageTitle } from '../../features/common/headerSlice'
+import { setPageTitle } from '../../../src/functions/features/common/headerSlice'
 import {Link} from 'react-router-dom'
-import TemplatePointers from '../../features/user/components/TemplatePointers'
+import TemplatePointers from '../../../src/functions/features/user/components/TemplatePointers'
 
 function InternalPage(){
 

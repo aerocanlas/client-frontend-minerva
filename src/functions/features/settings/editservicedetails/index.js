@@ -1,12 +1,12 @@
 import moment from "moment"
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import TitleCard from "../../../components/Cards/TitleCard"
+import TitleCard from '../../../../../src/components/adminComponents/Cards/TitleCard'
 import { showNotification } from '../../common/headerSlice'
-import { RECENT_STATUS } from "../../../utils/dummyData"
-import InputText from '../../../components/Input/InputText'
-import TextAreaInput from '../../../components/Input/TextAreaInput'
-import ToogleInput from '../../../components/Input/ToogleInput'
+import { RECENT_STATUS } from "../../../../../src/utils/dummyData"
+import InputText from '../../../../../src/components/adminComponents/Input/InputText'
+import TextAreaInput from '../../../../../src/components/adminComponents/Input/TextAreaInput'
+import ToogleInput from '../../../../../src/components/adminComponents/Input/ToogleInput'
 import ChevronDownIcon from '@heroicons/react/24/outline/ChevronDownIcon'
 
 function EditProductDetails(){

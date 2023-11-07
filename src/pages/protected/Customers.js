@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { setPageTitle } from '../../features/common/headerSlice'
-import Customers from '../../features/customers'
+import { setPageTitle } from '../../../src/functions/features/common/headerSlice'
+import Customers from '../../../src/functions/features/customers'
 
 function InternalPage(){
     const dispatch = useDispatch()

@@ -1,6 +1,6 @@
 import React, { lazy, useEffect, useState} from 'react'
 import { themeChange } from 'theme-change'
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
+import {BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import Header from './routes/landing/Header.js';
 import Footer from './components/customerComponents/footer/Footer';
 import {
@@ -41,6 +41,14 @@ function App() {
     themeChange(false)
   }, [])
 
+
+  const [ token, setToken ] = useState("")//store token
+
+  useEffect(() => {
+    // get token sa localStorage
+    // store
+    setToken("123456") // token
+  }, [])
   
 
   const [allCategories, setAllCategories] = useState([]);
@@ -535,20 +543,19 @@ function App() {
 
       <Footer />
       <>
-        <Router>
+        <BrowserRouter>
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/documentation" element={<Documentation />} />
             
             {/* Place new routes over this */}
             <Route path="/app/*" element={<Layout />} />
 
-            <Route path="*" element={<useNavigate to={token ? "/login" : "/customers"} replace />}/>
+              {/* <Route path="*" element={<useNavigate to={token ?  "/customers" : "/login" } replace />}/> */}
 
           </Routes>
-        </Router>
+        </BrowserRouter>
       </>
     </BrowserRouter>
     

@@ -1,11 +1,11 @@
 import moment from "moment"
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import TitleCard from "../../components/Cards/TitleCard"
+import TitleCard from "../../../../src/components/adminComponents/Cards/TitleCard"
 import { showNotification } from '../common/headerSlice'
 import { deleteLead, getLeadsContent } from "./leadSlice"
 import TrashIcon from '@heroicons/react/24/outline/TrashIcon'
-import { CONFIRMATION_MODAL_CLOSE_TYPES, MODAL_BODY_TYPES } from '../../utils/globalConstantUtil'
+import { CONFIRMATION_MODAL_CLOSE_TYPES, MODAL_BODY_TYPES } from '../../../../src/utils/globalConstantUtil'
 import PencilSquareIcon from '@heroicons/react/24/outline/PencilSquareIcon'
 import { openModal } from "../common/modalSlice"
 
