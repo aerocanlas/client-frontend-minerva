@@ -1,8 +1,9 @@
 import React, { lazy, useEffect, useState} from 'react'
 import { themeChange } from 'theme-change'
 import {BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
-import Header from './routes/landing/Header.js';
+import Header from './pages/landing/Header.js';
 import Footer from './components/customerComponents/footer/Footer';
+import routes from './routes/adminRoutes/index.js'
 import {
   About,
   Blog,
@@ -14,25 +15,25 @@ import {
   Payment,
   Register,
   SingleItem,
-} from './routes/index';
+} from './routes/customerRoutes/index';
 import { allProductsData } from './data/AllProductsData.js';
 import { AllCategories } from './data/AllCategories';
-import CheckoutSummary from './routes/checkout/CheckoutSummary.js';
-import CartTotals from './routes/cart/CartTotals.js';
+import CheckoutSummary from './pages/checkout/CheckoutSummary.js';
+import CartTotals from './pages/cart/CartTotals.js';
 import LoginModal from './components/customerComponents/login/LoginModal.js';
-import CartItem from './routes/cart/CartItem.js';
-import NotFound from './routes/not-found/NotFound.js';
-import Refunds from './routes/refunds/Refunds.js';
-import Terms from './routes/terms/Terms.js';
-import Privacy from './routes/privacy/Privacy.js';
-import BlogPost from './routes/blog-post/BlogPost.js';
-import Profile from './routes/profile/Profile.js';
+import CartItem from './pages/cart/CartItem.js';
+import NotFound from './pages/not-found/NotFound.js';
+import Refunds from './pages/refunds/Refunds.js';
+import Terms from './pages/terms/Terms.js';
+import Privacy from './pages/privacy/Privacy.js';
+import BlogPost from './pages/blog-post/BlogPost.js';
+import Profile from './pages/profile/Profile.js';
 import ResetLocation from './helpers/ResetLocation.js';
 
 const Layout = lazy(() => import('./containers/Layout'))
-const Login = lazy(() => import('./pages/Login'))
-const ForgotPassword = lazy(() => import('./pages/ForgotPassword'))
-const Registers = lazy(() => import('./pages/Register'))
+const Login = lazy(() => import('./pages/auth/Login'))
+const ForgotPassword = lazy(() => import('./pages/auth/ForgotPassword'))
+const Registers = lazy(() => import('./pages/auth/Register'))
 
 function App() {
 
@@ -542,21 +543,18 @@ function App() {
       </Routes>
 
       <Footer />
-      <>
-        <BrowserRouter>
-          <Routes>
+      {/* <> */}
+        {/* <BrowserRouter> */}
+          {/* <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
-            <Route path="/register" element={<Register />} />
+            <Route path="/register" element={<Register />} /> */}
             
             {/* Place new routes over this */}
-            <Route path="/app/*" element={<Layout />} />
+            {/* <Route path="/app/*" element={<Layout />} /> */}
 
               {/* <Route path="*" element={<useNavigate to={token ?  "/customers" : "/login" } replace />}/> */}
 
-          </Routes>
-        </BrowserRouter>
-      </>
     </BrowserRouter>
     
   );

@@ -221,7 +221,7 @@ header {
 
 .header-info span {
   color: var(--pizza-red);
-  font-family: var(--merriweather-font);
+  font-family: var(--poppins-font);
   font-size: 2rem;
 }
 
@@ -313,7 +313,7 @@ header {
 }
 
 .section-2-info h2 span {
-  font-family: var(--merriweather-font);
+  font-family: var(--poppins-font);
   color: var(--yellow);
 }
 
@@ -672,7 +672,7 @@ header {
   border: 1px solid var(--yellow);
   padding: 0.5rem 1rem;
   color: var(--yellow);
-  font-family: var(--josefin-font);
+  font-family: var(--poppins-font);
   font-size: 1.5rem;
   list-style: none;
   cursor: pointer;

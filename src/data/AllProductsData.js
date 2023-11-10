@@ -1614,23 +1614,26 @@ export const allProductsData = [
   {
     id: 'Shell-Helix-HX8-Fully-Synthetic-5W-40-1L',
     ItemImg: MargheritaPizza,
-    ItemName: 'Shell Helix HX8 Fully Synthetic 5W-40 1L',
+    ItemName: 'Shell Helix HX8',
     ItemIngredients:
-      'Fully synthetic motor oil – Relentless performance, cleansing and protection.',
+      'Fully synthetic motor oil. Relentless cleansing and protection.',
     ItemPriceBefore: (8).toFixed(2),
     ItemPrice: (7).toFixed(2),
-    Category: 'Breaks',
+    Category: 'Oils',
     sale: true,
     attributes: [],
   },
   {
     id: 'Shell-Spirax-S1-ATF-TASA-Transmission-Fluid-1L',
     ItemImg: VeggiePizza,
-    ItemName: 'Shell Spirax Transmission Fluid 1L',
+    ItemName: 'Shell Spirax Transmission',
+    ItemDetailedName: 'Shell Spirax S1 ATF TASA Transmission Fluid 1L',
     ItemIngredients:
       'Quality Type A Suffix A Automatic Transmission and Hydraulic Fluid',
+      ItemDetailed:
+      'A high quality automotive transmission, power steering and hydraulic oil mainly used for heavy duty vehicles working in an off-road environment',
     ItemPriceBefore: (9).toFixed(2),
-    ItemPrice: (8).toFixed(2),
+    ItemPrice: (400).toFixed(2),
     Category: 'Breaks',
     sale: true,
     attributes: [],
@@ -1640,7 +1643,7 @@ export const allProductsData = [
     ItemImg: Sebastian,
     ItemName: 'Wurth Ultra Lubricant 150ML',
     ItemIngredients:
-      'Loosens seized and rusted parts With PTFE and 360° valve Silicone-free Removes moisture from electrical systems Strong water displacement effect',
+      'Loosens seized and rusted parts With PTFE and 360° valve',
     ItemPriceBefore: (13).toFixed(2),
     ItemPrice: (11).toFixed(2),
     Category: 'Breaks',
@@ -1648,11 +1651,11 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Helix Power Carbon Neutral 0w-40 4L',
+    id: 'Shell Helix Power Carbon Neutral 0W-40 4L',
     ItemImg: LambRagu,
-    ItemName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
+    ItemName: 'Shell Helix Power 0w-40 4L',
     ItemIngredients:
-      'Engine oil volume: 4 Liters. Viscosity grade: 0W-40. Compatible with gasoline and diesel car engine oil.',
+      'Compatible with gasoline and diesel car engine oil.',
     ItemPriceBefore: (1200).toFixed(2),
     ItemPrice: (1000).toFixed(2),
     Category: 'Oil',

@@ -1,4 +1,4 @@
-import routes from '../routes/adminRoutes/routes/sidebar'
+import routes from '../routes/adminRoutes/sidebar'
 import { NavLink,  Routes, Link , useLocation} from 'react-router-dom'
 import SidebarSubmenu from './SidebarSubmenu';
 import XMarkIcon  from '@heroicons/react/24/outline/XMarkIcon'

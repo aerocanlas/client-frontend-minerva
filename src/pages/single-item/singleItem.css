@@ -1,0 +1,103 @@
+.single-item-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-black);
+    background-image: none;
+    margin-top: 1rem;
+    height: 60rem;
+}
+.back-btn {
+    color: var(--whitish-gray);
+    font-family: var(--poppins-font);
+    background-color: rgba(219, 219, 219, 0.093);
+    backdrop-filter: blur(5px);
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+    max-width: max-content;
+}
+
+.single-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    gap: 2rem;
+    max-width: 1500px;
+}
+
+.single-item img {
+    max-width: 100%;
+    height: 50rem;
+    max-height: 70%;
+    object-fit: cover;
+}
+
+.single-item-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+.single-item-title {
+    display: flex;
+    flex-direction: column;
+}
+.single-item h2 {
+    font-size: 2.2rem;
+    font-family: var(--poppins-font);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.single-item p {
+    font-size: 1.2rem;
+    font-family: var(--poppins-font);
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 275px;
+    max-width: 500px;
+}
+
+.single-item-price-num {
+    font-size: 2rem;
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--pizza-yellow);
+}
+
+.single-item-attributes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single-item-price-and-button {
+    font-size: 1.2rem;
+    font-family: var(--poppins-font);
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    max-width: 500px;
+}
+
+.single-item-attributes li {
+    border: 1px solid rgba(255, 255, 255, 0.113);
+    opacity: 0.7;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    .single-item {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

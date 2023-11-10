@@ -5,18 +5,18 @@ import reportWebVitals from "./reportWebVitals";
 import "./core-ui/app.css";
 import "./core-ui/responsive.css";
 import "./core-ui/leaflet.css";
-import './routes/menu/menu.css'
-import './routes/contact/contact.css'
-import './routes/about/about.css'
-import './routes/blog/blog.css'
-import './routes/cart/cart.css'
-import './routes/registration/register.css'
-import './routes/checkout/checkout.css'
-import './routes/payment/payments.css'
-import './routes/not-found/notFound.css'
-import './routes/blog-post/blogPost.css'
-import './routes/profile/profile.css'
-import './routes/single-item/singleItem.css'
+import './pages/menu/menu.css'
+import './pages/contact/contact.css'
+import './pages/about/about.css'
+import './pages/blog/blog.css'
+import './pages/cart/cart.css'
+import './pages/registration/register.css'
+import './pages/checkout/checkout.css'
+import './pages/payment/payments.css'
+import './pages/not-found/notFound.css'
+import './pages/blog-post/blogPost.css'
+import './pages/profile/profile.css'
+import './pages/single-item/singleItem.css'
 
 
 //Components
