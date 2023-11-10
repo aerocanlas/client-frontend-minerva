@@ -150,7 +150,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .pagination li.selected {
-  color: var(--pizza-yellow);
+  color: var(--yellow);
 }
 
 /* MENU ITEM */
