@@ -25,6 +25,20 @@ const ourServices = [
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum eget ligula a malesuada.',
     },
+    {
+        id: 3,
+        img: ImgThree,
+        name: 'Service 3',
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum eget ligula a malesuada.',
+    },
+    {
+        id: 3,
+        img: ImgThree,
+        name: 'Service 3',
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum eget ligula a malesuada.',
+    },
 ]
 
 export default ourServices;
