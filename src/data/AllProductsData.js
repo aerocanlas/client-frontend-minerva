@@ -1005,7 +1005,10 @@ export const allProductsData = [
     id: 'Fleetmax-FAS-8525-Air-Filter',
     ItemImg: FriendlySet,
     ItemName: 'Fleetmax FAS 8525 Air Filter',
+    ItemDetailedName: 'Fleetmax FAS 8525 Air Filter',
     ItemIngredients:
+      'Californication, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Cucumber Maki Raki.',
+      ItemDetailed:
       'Californication, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Cucumber Maki Raki.',
     ItemPrice: (30).toFixed(2),
     Category: 'Filters',
@@ -1015,7 +1018,10 @@ export const allProductsData = [
     id: 'Vic-C-809-Oil-Filter',
     ItemImg: SunnyPhiladelphia,
     ItemName: 'Vic C 809 Oil Filter',
+    ItemDetailedName: 'Vic C 809 Oil Filter',
     ItemIngredients: 'Salmon, cream cheese, avocado, rice, sesame, nori.',
+      ItemDetailed:
+      'Salmon, cream cheese, avocado, tobiko, rice, sesame, cucumber, nori.',
     ItemPrice: (12).toFixed(2),
     Category: 'Filters',
     attributes: [],
@@ -1024,7 +1030,10 @@ export const allProductsData = [
     id: 'Eurol-Fluence-DXS-5W-30-1L',
     ItemImg: HiddenDragon,
     ItemName: 'Eurol Fluence DXS 5W 30-1L',
+    ItemDetailedName: 'Eurol Fluence DXS 5W-30 1L',
     ItemIngredients:
+      'Salmon, cream cheese, avocado, tobiko, rice, sesame, cucumber, nori.',
+      ItemDetailed:
       'Salmon, cream cheese, avocado, tobiko, rice, sesame, cucumber, nori.',
     ItemPrice: (13).toFixed(2),
     Category: 'Oils',
@@ -1230,7 +1239,10 @@ export const allProductsData = [
     id: 'Shell-Helix-Power-Carbon-Neutral-0w-40-4L',
     ItemImg: ClockworkOrange,
     ItemName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
+    ItemDetailedName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
     ItemIngredients: 'Engine oil volume: 4 Liters. Viscosity grade: 0W-40. Compatible with gasoline and diesel car engine oil.',
+      ItemDetailed:
+      'Engine oil volume: 4 Liters. Viscosity grade: 0W-40. Compatible with gasoline and diesel car engine oil.',
     ItemPrice: (11).toFixed(2),
     Category: 'Oils',
     attributes: [],
@@ -1239,7 +1251,10 @@ export const allProductsData = [
     id: 'Shell-Helix-Power-Carbon-Neutral-0w-40-4L',
     ItemImg: KiwiRoll,
     ItemName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
+    ItemDetailedName: 'Shell Helix Power Carbon Neutral 0w-40 4L',
     ItemIngredients:
+      'Engine oil volume: 4 Liters. Viscosity grade: 0W-40. Compatible with gasoline and diesel car engine oil.',
+      ItemDetailed:
       'Engine oil volume: 4 Liters. Viscosity grade: 0W-40. Compatible with gasoline and diesel car engine oil.',
     ItemPrice: (13).toFixed(2),
     Category: 'Oils',
@@ -1615,7 +1630,10 @@ export const allProductsData = [
     id: 'Shell-Helix-HX8-Fully-Synthetic-5W-40-1L',
     ItemImg: MargheritaPizza,
     ItemName: 'Shell Helix HX8',
+    ItemDetailedName: 'Shell Helix HX8 Fully Synthetic 5W-40 1L',
     ItemIngredients:
+      'Fully synthetic motor oil. Relentless cleansing and protection.',
+      ItemDetailed:
       'Fully synthetic motor oil. Relentless cleansing and protection.',
     ItemPriceBefore: (8).toFixed(2),
     ItemPrice: (7).toFixed(2),
@@ -1642,7 +1660,10 @@ export const allProductsData = [
     id: 'Wurth-Ultra-2040-Multi-Purpose-Lubricant-150ML',
     ItemImg: Sebastian,
     ItemName: 'Wurth Ultra Lubricant 150ML',
+    ItemDetailedName: 'Wurth Ultra 2040 Multi-Purpose Lubricant 150ML',
     ItemIngredients:
+      'Loosens seized and rusted parts With PTFE and 360° valve',
+      ItemDetailed:
       'Loosens seized and rusted parts With PTFE and 360° valve',
     ItemPriceBefore: (13).toFixed(2),
     ItemPrice: (11).toFixed(2),
@@ -1651,10 +1672,13 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Shell Helix Power Carbon Neutral 0W-40 4L',
+    id: 'Shell-Helix-Power-Carbon-Neutral-0W-40-4L',
     ItemImg: LambRagu,
     ItemName: 'Shell Helix Power 0w-40 4L',
+    ItemDetailedName: 'Shell Helix Power Carbon Neutral 0W-40 4L',
     ItemIngredients:
+      'Compatible with gasoline and diesel car engine oil.',
+      ItemDetailed:
       'Compatible with gasoline and diesel car engine oil.',
     ItemPriceBefore: (1200).toFixed(2),
     ItemPrice: (1000).toFixed(2),
@@ -1663,10 +1687,13 @@ export const allProductsData = [
     attributes: [],
   },
   {
-    id: 'Eurol TurboCat 10W-40 1L',
+    id: 'Eurol-Super-Lite-5W-40-1L',
     ItemImg: CheesePizza,
     ItemName: 'Eurol Super Lite 5W-40 1L',
+    ItemDetailedName: 'Eurol Super Lite 5W-40 1L',
     ItemIngredients: 'Semi-synthetic engine oil for petrol and diesel engines',
+      ItemDetailed:
+      'Semi-synthetic engine oil for petrol and diesel engines',
     ItemPriceBefore: (350).toFixed(2),
     ItemPrice: (300).toFixed(2),
     Category: 'Breaks',

@@ -7,21 +7,21 @@ const ourServices = [
     {
         id: 1,
         img: ImgOne,
-        name: 'Service 1',
+        name: 'Tires & Magwheels',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum eget ligula a malesuada.',
     },
     {
         id: 2,
         img: ImgTwo,
-        name: 'Service 2',
+        name: '4-Wheel Alignment & Camber Correction',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum eget ligula a malesuada.',
     },
     {
         id: 3,
         img: ImgThree,
-        name: 'Service 3',
+        name: 'Preventive Maintenance Service',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum eget ligula a malesuada.',
     },
