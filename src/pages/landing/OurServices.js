@@ -2,6 +2,8 @@ import React from 'react'
 import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 import ourServices from '../../data/ourServices';
+import { Link } from 'react-router-dom'
+import ResetLocation from '../../helpers/ResetLocation'
 
 
 
@@ -40,6 +42,15 @@ const OurServices = () => {
             </section>
           </Tilt>
         ))}
+      </section>
+      <section>
+      <Link
+        onClick={ResetLocation}
+        to="/blog"
+        className="active-button-style txt-white"
+      >
+        View All Services
+      </Link>
       </section>
     </motion.article>
   )
