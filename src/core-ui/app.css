@@ -348,6 +348,8 @@ header {
 }
 .section-3-container p {
   color: var(--light-gray);
+  font-family: var(--poppins-font);
+  font-size: .9rem;
   max-width: 1200px;
 }
 
