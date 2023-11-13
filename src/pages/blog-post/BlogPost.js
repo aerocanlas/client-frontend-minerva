@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 import allBlogPosts from '../../data/allBlogPosts'
+import { Link } from 'react-router-dom'
+import ResetLocation from '../../helpers/ResetLocation'
 
 const BlogPost = () => {
     const [blogPost, setBlogPost] = useState({});
@@ -16,6 +18,13 @@ const BlogPost = () => {
                 <h2>{blogPost.name}</h2>
                 <p>{blogPost.content}</p>
             </section>
+            <Link
+        onClick={ResetLocation}
+        to="/"
+        className="active-button-style txt-white"
+      >
+        Schedule a Service
+      </Link>
         </main>
     )
 }
